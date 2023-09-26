@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#navbar {
+    position: fixed;
+    height: max-content;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.icon-burguer {
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  width: 46px;
+  text-align: center;
+}
+
+.flex-end {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.half {
+  width: 50%;
+}
+
+.icon-nav {
+    margin: 0.5em 1em;
+    width: 5em;
+    padding: 10px;
+}
+
+.config-text {
+  font-size: 1em;
+  letter-spacing: 3px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.thin-text {
+  font-weight: 300;
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+}
+
+.btn-primary {
+  --bs-btn-bg: #00000000;
+  border: 0;
+  --bs-btn-active-bg: rgba(114, 114, 114, 0.37);
+}
+
+.btn-primary:hover {
+  background-color: rgba(114, 114, 114, 0.37);
+}
+
+.btn-primary:hover {
+  --bs-btn-hover-border-color: rgba(114, 114, 114, 0.37);
+}
+
+.new-font {
+  font-family: 'Roboto Slab', serif;
+}
+
+.dropdown-item {
+  font-weight: 600;
+  color: rgb(70, 70, 70);
+  padding-right: 30px;
+  font-size: 1.1em;
+}
+
+.dropdown-item:hover {
+  color: black;
+  background-color: rgba(226, 226, 226, 0.575);
+}
+
+.modal-body {
+  padding: 0;
+}
+
+.custom-dropdown {
+  padding: 1em;
+}
+
+.btn-close {
+  --bs-btn-close-bg: url(./imagens/x.png);
+  color: white;
+}
+
+div.container p.new-font {
+  font-weight: 500;
+  padding: 6px;
+  color: rgb(77, 77, 77);
+  font-size: 1.1em;
+}
+
+#container-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.border-bottom {
+  border-bottom: 1px solid rgb(160, 160, 160);
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+}
+.start {
+  align-self: flex-start;
+  margin: 0.6em;
+  width: 90%;
+}
+
+.wrap-direction {
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.show-desktop {
+  display: flex;
+}
+
+@media(max-width: 768px) {
+
+  .config-text {
+    font-size: 0.8em;
+  }
+
+}
+
+@media(max-width: 1068px) {
+    .show-desktop{
+    display: none;
+  }
+}
+
+@media(min-width: 1068px) {
+  .show-mobile {
+    display: none;
+  }
+}
