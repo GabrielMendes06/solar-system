@@ -3,13 +3,19 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { SolarSystemProvider } from './components/CompContext/InfSolarSystem';
+import { DwarfPlanetsProvider } from './components/CompContext/infDwarfPlanets';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <SolarSystemProvider>
+      <DwarfPlanetsProvider>
+        <App />
+      </DwarfPlanetsProvider>
+    </SolarSystemProvider>
   </React.StrictMode>
 );
 

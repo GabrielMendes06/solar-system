@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar/Navbar"; 
 import "./App.css";
+import Details from "./components/DetailAboveTheVideo/Details";
 
 
 function App() {

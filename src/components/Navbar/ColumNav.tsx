@@ -1,12 +1,18 @@
 import { ReactNode } from "react"
 
-function ColumNav<T>( { children, className }: { children: ReactNode, className?: string} ) {
+type ColumNavProps = {
+    children: ReactNode
+    className: string
+}
+
+const ColumNav: React.FC<ColumNavProps> = ({ children, className }) => {
 
     return(
-        <div className={`col-sm flex ${className}`}>
+        <div className={`${className}`}>
             {children}
         </div>
     )
+
 }
 
 export default ColumNav

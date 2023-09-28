@@ -6,7 +6,7 @@ interface Items {
     content: React.ReactNode
 }
 
-function DropdownItem( { href, content }: Items ) {
+const DropdownItem: React.FC<Items> = ( { href, content }) => {
     return(
         <li> <Dropdown.Item href={href}>{content}</Dropdown.Item></li>
     )

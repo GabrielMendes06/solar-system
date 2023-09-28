@@ -1,17 +1,22 @@
-import SolarSystem from "./imagens/sistema-solar.png"
+import Paragraph from "../GlobalComponents.tsx/Paragraph";
+import SolarSystem from "./assets/sistema-solar.png";
 
-function ApresentationMark() {
+const ApresentationMark = () => {
   return (
     <>
       <img src={SolarSystem} alt="SolarSystem" className="icon-nav" />
       <div>
-        <p className="text-light new-font config-text">SolarSystem</p>
-        <p className="text-light new-font config-text thin-text">
-          Galaxy of the universe, our home
-        </p>
+        <Paragraph
+          className="text-light new-font config-text"
+          content="SolarSystem"
+        />
+        <Paragraph
+          className="text-light new-font config-text thin-text"
+          content="Galaxy of the universe, our home"
+        />
       </div>
     </>
   );
 }
 
-export default ApresentationMark
+export default ApresentationMark;

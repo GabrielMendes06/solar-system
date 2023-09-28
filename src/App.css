@@ -1,2 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800&display=swap');
 
+.transiction {
+    transition: 0.5s;
+}
+
+.App {
+    background-image: url(./components/Navbar/assets/earth.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}

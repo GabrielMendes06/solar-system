@@ -7,12 +7,14 @@ interface Title {
   children?: ReactNode
 }
 
-function CustomDropdown( { title, children }: Title) {
+const CustomDropdown: React.FC<Title> = ( { title, children } ) => {
+
   return (
-    <DropdownButton id="dropdown-basic-button" className='custom-dropdown' title={title}>
+    <DropdownButton className='custom-dropdown dropdown-button' title={title}>
       {children}
     </DropdownButton>
   );
+  
 }
 
 export default CustomDropdown;
