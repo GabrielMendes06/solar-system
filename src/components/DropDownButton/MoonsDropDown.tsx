@@ -1,9 +1,8 @@
-import { useContext, useEffect, useState } from "react";
+import { useContext } from "react";
 import { InfSolarSystem } from "../CompContext/InfSolarSystem";
 import Paragraph from "../GlobalComponents.tsx/Paragraph";
 import CustomDropDown from "../Navbar/CustomDropDown";
 import DropdownItem from "../Navbar/DropdownItem";
-import axios from "axios";
 
 const MoonsDropDown: React.FC = () => {
   const { planets } = useContext(InfSolarSystem);
@@ -18,16 +17,15 @@ const MoonsDropDown: React.FC = () => {
               />
               <ul className="row flex-nowrap flex-row list-unstyled flex-column w-100 d-flex">
                 <div className="row">
-                  {planets.map((planet: any, index: number): React.ReactNode => {
+                  {planets.map((planet: any): React.ReactNode => {
                     const moonArray = planet.moons;
                     const moons = [];
                     for (let key in moonArray) {
                       moons.push(moonArray[key]);
                     }
                     return (
-                      <div className="col-6">
+                      <div className="col-6" key={planet.id}>
                         <DropdownItem
-                          key={index}
                           href="#/action-1"
                           content={`${planet.englishName} (${moons.length})`}
                         />

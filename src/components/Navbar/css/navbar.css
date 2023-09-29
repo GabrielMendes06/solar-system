@@ -5,10 +5,7 @@
   margin: 0;
 }
 
-#navbar {
-    position: fixed;
-    height: max-content;
-}
+/* NAVBAR */
 
 .flex {
     display: flex;
@@ -84,12 +81,8 @@
 }
 
 .container-grid {
-  display: flex;
   min-width: 260px;
   max-width: 350px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 @media(max-width: 1068px) {
@@ -121,3 +114,5 @@
     margin-top: 20px;
   }
 }
+
+/* CONTENT GIF */

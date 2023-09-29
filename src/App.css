@@ -4,9 +4,13 @@
     transition: 0.5s;
 }
 
-.App {
+.video-content {
     background-image: url(./components/Navbar/assets/earth.gif);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+}
+
+.carousel-item:hover div {
+    cursor: pointer;
 }

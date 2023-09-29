@@ -1,7 +1,7 @@
 import DropdownItem from "../Navbar/DropdownItem";
 import Paragraph from "../GlobalComponents.tsx/Paragraph";
 import CustomDropDown from "../Navbar/CustomDropDown";
-import { useContext, ReactNode } from "react";
+import { useContext } from "react";
 import { InfSolarSystem } from "../CompContext/InfSolarSystem";
 import { InfDwarfPlanets } from "../CompContext/infDwarfPlanets";
 
@@ -22,11 +22,10 @@ const PlanetDropDown: React.FC = () => {
             <Paragraph className="align-self-start m-2 new-font" content="Planets" />
             <ul className="row flex-nowrap flex-row list-unstyled d-flex flex-column w-100 border-bottom">
               <div className="row">
-                {planets.map((planet: any, index: number): React.ReactNode => {
+                {planets.map((planet: any): React.ReactNode => {
                   return (
-                    <div className="col-6">
+                    <div className="col-6" key={planet.id}>
                       <DropdownItem
-                        key={index}
                         href="#/action-1"
                         content={planet.englishName}
                       />
@@ -38,11 +37,10 @@ const PlanetDropDown: React.FC = () => {
             <Paragraph className="align-self-start m-2 new-font" content="Dwarf Planets" />
             <ul className="row flex-nowrap flex-row list-unstyled d-flex">
               <div className="row">
-                {dwarfPlanets.map((dwarfPlanet: any, index: number): React.ReactNode => {
+                {dwarfPlanets.map((dwarfPlanet: any): React.ReactNode => {
                     return(
-                    <div className="col-6">
-                        <DropdownItem 
-                        key={index}
+                    <div className="col-6" key={dwarfPlanet.id}>
+                        <DropdownItem             
                         href="#"
                         content={dwarfPlanet.englishName.replace(/^\d+\s/, '')}
                         />

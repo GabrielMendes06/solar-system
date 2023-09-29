@@ -1,0 +1,19 @@
+.caroulsel-content {
+    height: max-content;
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.301);
+}
+
+.carousel-indicators  {
+    display: none; 
+}
+
+.carousel-item {
+    transition: 0.5s
+}
+
+.carousel-item.active {
+    display: flex;
+    justify-content: center;
+    transition: 0.5s;
+}

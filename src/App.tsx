@@ -1,5 +1,7 @@
 import Navbar from "./components/Navbar/Navbar"; 
 import "./App.css";
+import VideoContent from "./components/Main/VideoContent/VideoContent";
+import MediumPage from "./components/Main/MediumPage/MediumPage";
 
 
 function App() {
@@ -8,9 +10,10 @@ function App() {
       <header>
         <Navbar />
       </header>
-      <header className="container.fluid">
-
-      </header>
+      <main>
+        <VideoContent />
+        <MediumPage />
+      </main>
     </div>
   );
 }
