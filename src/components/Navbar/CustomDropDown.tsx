@@ -10,7 +10,7 @@ interface Title {
 const CustomDropdown: React.FC<Title> = ( { title, children } ) => {
 
   return (
-    <DropdownButton className='custom-dropdown dropdown-button' title={title}>
+    <DropdownButton className='dropdown-button m-3' title={title}>
       {children}
     </DropdownButton>
   );

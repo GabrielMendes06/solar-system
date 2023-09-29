@@ -1,5 +1,5 @@
 import ColumNav from "./ColumNav"
-import "./navbar.css"
+import "./css/navbar.css"
 import "../../App.css"
 import NavbarModal from "./NavbarModal"
 import ApresentationMark from "./ApresentationMark"
@@ -25,10 +25,10 @@ const Navbar: React.FC = () => {
     return(     
             <div className={`w-100 ${navbarClass} transiction`} id="navbar">
                 <div className="row">
-                    <ColumNav className="col-sm flex half">
+                    <ColumNav className="col-sm d-flex align-items-center w-50">
                         <ApresentationMark />
                     </ColumNav>
-                    <ColumNav className="col-sm flex flex-end half">
+                    <ColumNav className="col-sm d-flex align-items-center justify-content-end w-50">
                         <NavbarModal />
                     </ColumNav>                
                 </div>                         

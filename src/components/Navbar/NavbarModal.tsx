@@ -1,20 +1,18 @@
 import { useState, useEffect, useContext } from "react";
 import { InfSolarSystem } from "../CompContext/InfSolarSystem";
+import { InfDwarfPlanets } from "../CompContext/infDwarfPlanets";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import ApresentationMark from "./ApresentationMark";
-import CustomDropDown from "./CustomDropDown";
-import DropdownItem from "./DropdownItem";
-import Paragraph from "../GlobalComponents.tsx/Paragraph";
 import axios from "axios";
 import PlanetDropDown from "../DropDownButton/PlanetDropDown";
 import MoonsDropDown from "../DropDownButton/MoonsDropDown";
-import { InfDwarfPlanets } from "../CompContext/infDwarfPlanets";
+import MeteorsDropDown from "../DropDownButton/MeteorsDropDown";
 
 const NavbarModal: React.FC = () => {
   const values = ["xxl-down"];
   const { setPlanets } = useContext(InfSolarSystem);
-  const { setDwarfPlanets } = useContext(InfDwarfPlanets)
+  const { setDwarfPlanets } = useContext(InfDwarfPlanets);
   const [fullscreen, setFullscreen] = useState<boolean>(true);
   const [show, setShow] = useState<boolean>(false);
 
@@ -31,8 +29,8 @@ const NavbarModal: React.FC = () => {
       const dwarfPlanets = await axios.get(
         "https://api.le-systeme-solaire.net/rest.php/bodies?filter%5B%5D=bodyType%2Ceq%2CDwarf%20Planet"
       );
-      setPlanets(resPlanets.data.bodies)
-      setDwarfPlanets(dwarfPlanets.data.bodies)
+      setPlanets(resPlanets.data.bodies);
+      setDwarfPlanets(dwarfPlanets.data.bodies);
     } catch (error) {
       console.log(error);
     }
@@ -44,43 +42,28 @@ const NavbarModal: React.FC = () => {
 
   return (
     <>
-      <div className="flex show-desktop">
+      <div className="flex show-desktop justify-content-end w-100">
         <PlanetDropDown />
         <MoonsDropDown />
-        <CustomDropDown title={"Asteroides, Cometas e Meteoros"}>
-          <Paragraph
-            className="start new-font border-bottom subtitle-text"
-            content="Sobre os Asteroides, Cometas e Meteoros"
-          />
-          <ul className="row wrap-direction list">
-            <div className="col-sm">
-              <DropdownItem href="#/action-8" content="Meteoros & Meteoritos" />
-              <DropdownItem href="#/action-8" content="Asteroides" />
-            </div>
-            <div className="col-sm">
-              <DropdownItem href="#/action-1" content="Cometas" />
-            </div>
-          </ul>
-        </CustomDropDown>
+        <MeteorsDropDown />
       </div>
       <div className="show-mobile">
         <Button className="me-2 mb-2" onClick={() => handleShow(values)}>
-          <i className="bi bi-list icon-burguer"></i>
+          <i className="bi bi-list icon-burguer   display-1 text-light bg-transparent rounded-circle"></i>
         </Button>
       </div>
-
       <Modal
         show={show}
         fullscreen={`${fullscreen}`}
         onHide={() => setShow(false)}
       >
         <Modal.Header closeButton className="bg-primary">
-          <Modal.Title className="flex">
+          <Modal.Title className="d-flex align-items-center">
             <ApresentationMark />
           </Modal.Title>
         </Modal.Header>
         <Modal.Body className="bg-primary">
-          <ul className="list">
+          <ul className="list-unstyled flex-column w-100 d-flex">
             <li>
               <PlanetDropDown />
             </li>
@@ -88,24 +71,7 @@ const NavbarModal: React.FC = () => {
               <MoonsDropDown />
             </li>
             <li>
-              <CustomDropDown title={"Asteroides, Cometas e Meteoros"}>
-                <Paragraph
-                  className="start new-font border-bottom subtitle-text"
-                  content="Sobre os Asteroides, Cometas e Meteros"
-                />
-                <ul className="row wrap-direction list container.fluid">
-                  <div className="col-sm">
-                    <DropdownItem
-                      href="#/action-8"
-                      content="Meteoros & Meteoritos"
-                    />
-                    <DropdownItem href="#/action-8" content="Asteroides" />
-                  </div>
-                  <div className="col-sm">
-                    <DropdownItem href="#/action-1" content="Cometas" />
-                  </div>
-                </ul>
-              </CustomDropDown>
+              <MeteorsDropDown />
             </li>
           </ul>
         </Modal.Body>

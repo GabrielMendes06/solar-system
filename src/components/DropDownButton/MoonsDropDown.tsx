@@ -13,10 +13,10 @@ const MoonsDropDown: React.FC = () => {
         <CustomDropDown title={"Moons"}>
           <div className="container-grid">
               <Paragraph
-                className="start new-font border-bottom subtitle-text"
+                className="align-self-start m-2 new-font border-bottom subtitle-text"
                 content="About moons"
               />
-              <ul className="row wrap-direction list">
+              <ul className="row flex-nowrap flex-row list-unstyled flex-column w-100 d-flex">
                 <div className="row">
                   {planets.map((planet: any, index: number): React.ReactNode => {
                     const moonArray = planet.moons;

@@ -1,12 +1,16 @@
 import Navbar from "./components/Navbar/Navbar"; 
 import "./App.css";
-import Details from "./components/DetailAboveTheVideo/Details";
 
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
+    <div className="App">        
+      <header>
+        <Navbar />
+      </header>
+      <header className="container.fluid">
+
+      </header>
     </div>
   );
 }

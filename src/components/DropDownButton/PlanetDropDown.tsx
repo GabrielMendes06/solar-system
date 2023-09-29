@@ -13,14 +13,14 @@ const PlanetDropDown: React.FC = () => {
     const { dwarfPlanets } = useContext(InfDwarfPlanets)
 
     return (
-        <CustomDropDown title={"Planets"}>
+        <CustomDropDown title={"Planets"} >
           <div className="container container-grid" >
             <Paragraph
-              className="start new-font border-bottom subtitle-text"
+              className="align-self-start m-2 new-font border-bottom subtitle-text"
               content="About Planets"
             />
-            <Paragraph className="start new-font" content="Planets" />
-            <ul className="row wrap-direction list border-bottom">
+            <Paragraph className="align-self-start m-2 new-font" content="Planets" />
+            <ul className="row flex-nowrap flex-row list-unstyled d-flex flex-column w-100 border-bottom">
               <div className="row">
                 {planets.map((planet: any, index: number): React.ReactNode => {
                   return (
@@ -35,8 +35,8 @@ const PlanetDropDown: React.FC = () => {
                 })}
               </div>
             </ul>
-            <Paragraph className="start new-font" content="Dwarf Planets" />
-            <ul className="row wrap-direction list">
+            <Paragraph className="align-self-start m-2 new-font" content="Dwarf Planets" />
+            <ul className="row flex-nowrap flex-row list-unstyled d-flex">
               <div className="row">
                 {dwarfPlanets.map((dwarfPlanet: any, index: number): React.ReactNode => {
                     return(

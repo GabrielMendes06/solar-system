@@ -8,7 +8,6 @@
 #navbar {
     position: fixed;
     height: max-content;
-    width: 100%;
 }
 
 .flex {
@@ -18,21 +17,7 @@
 
 .icon-burguer {
   font-size: 2em;
-  color: rgb(255, 255, 255);
-  background-color: rgba(0, 0, 0, 0);
-  border-radius: 50%;
-  width: 46px;
   text-align: center;
-}
-
-.flex-end {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-.half {
-  width: 50%;
 }
 
 .icon-nav {
@@ -44,12 +29,12 @@
 .config-text {
   font-size: 1em;
   letter-spacing: 3px;
-  font-weight: 500;
+  font-weight: 600;
   margin: 0;
 }
 
 .thin-text {
-  font-weight: 300;
+  font-weight: 600;
 }
 
 .btn-primary {
@@ -86,20 +71,10 @@
   background-color: rgba(226, 226, 226, 0.575);
 }
 
-.modal-body {
-  padding: 0;
-}
-
-.custom-dropdown {
-  padding: 1em;
-}
-
 .btn-close {
-  --bs-btn-close-bg: url(./assets/x.png);
+  --bs-btn-close-bg: url(../assets/x.png);
   color: white;
 }
-
-
 
 .subtitle-text {
   font-weight: 500;
@@ -111,59 +86,10 @@
 .container-grid {
   display: flex;
   min-width: 260px;
+  max-width: 350px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-#limit-content {
-  width: 50%;
-}
-
-.border-bottom {
-  border-bottom: 1px solid rgb(160, 160, 160);
-}
-
-.list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  padding: 0;
-}
-
-.start {
-  align-self: flex-start;
-  margin: 0.6em;
-  width: 90%;
-}
-
-.wrap-direction {
-  flex-wrap: nowrap;
-  flex-direction: row;
-}
-
-.show-desktop {
-  display: flex;
-}
-
-.video {
-  position: absolute;
-  z-index: -1;
-  right: 0;
-  bottom: 0;
-}
-
-@media(max-width: 768px) {
-
-  .config-text {
-    font-size: 0.8em;
-  }
-
-  .icon-nav {
-    margin: 0;
-  }
-
 }
 
 @media(max-width: 1068px) {
@@ -180,17 +106,18 @@
 
 @media(max-width: 768px) {
   .config-text {
-    font-size: 1em;
+    font-size: 1.2em;
   }
 
   .dropdown-button button {
     font-size: 1.3em;
   }
-}
 
-@media(max-aspect-ratio: 16/9) {
-  .video {
-    width: auto;
-    height: 100%; 
+  .icon-nav {
+    margin: 0;
+  }
+
+  #navbar {
+    margin-top: 20px;
   }
 }
