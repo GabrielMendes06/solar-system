@@ -1,0 +1,12 @@
+.max-w-200 {
+    max-width: 200px;
+    margin: auto;
+}
+
+.min-w-360 {
+    min-width: 370px;
+}
+
+.bg-info:hover {
+    background-color: rgb(56, 162, 223)!important;
+}
