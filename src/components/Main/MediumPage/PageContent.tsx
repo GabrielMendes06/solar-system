@@ -5,7 +5,7 @@ import meteors from "../assets/meteors.jpg";
 import moon from "../assets/moon.jpg";
 import jupiter from "../assets/jupiter.jpg";
 import uranus from "../assets/uranus.jpg";
-import asteroid from "../assets/asteroid.jpg"
+import asteroid from "../assets/asteroid.jpg";
 
 const PageContent: React.FC = () => {
   return (
@@ -23,11 +23,11 @@ const PageContent: React.FC = () => {
           imgSrc={sun}
         />
         <CardStructure
-          feature="Meteors and Meteorites"
-          text="Our Sun is a 4.5 billion-year-old star – a hot glowing ball of hydrogen and helium at the center of our solar system. The Sun is about 93 million miles (150 million kilometers) from Earth, and without its energy, life as we know it could not exist here on our home planet."
-          title="What’s the difference between a meteoroid, a meteor, and a meteorite?"
-          alt="Meteor"
-          imgSrc={meteors}
+          feature="Uranus, the coldest planet in the solar system"
+          text="Uranus is very cold and windy. It is surrounded by faint rings and more than two dozen small moons as it rotates at a nearly 90-degree angle from the plane of its orbit. This unique tilt makes Uranus appear to spin on its side. Uranus is blue-green in color due to large amounts of methane, which absorbs red light but allows blues to be reflected back into space. The atmosphere is mostly hydrogen and helium, but also includes large amounts of water, ammonia and methane."
+          title="The first planet discovered with the aid of a telescope."
+          alt="Uranus"
+          imgSrc={uranus}
         />
         <CardStructure
           feature="Moons of Our Solar System"
@@ -44,11 +44,11 @@ const PageContent: React.FC = () => {
           imgSrc={jupiter}
         />
         <CardStructure
-          feature="Uranus, the coldest planet in the solar system"
-          text="Uranus is very cold and windy. It is surrounded by faint rings and more than two dozen small moons as it rotates at a nearly 90-degree angle from the plane of its orbit. This unique tilt makes Uranus appear to spin on its side. Uranus is blue-green in color due to large amounts of methane, which absorbs red light but allows blues to be reflected back into space. The atmosphere is mostly hydrogen and helium, but also includes large amounts of water, ammonia and methane."
-          title="The first planet discovered with the aid of a telescope."
-          alt="Uranus"
-          imgSrc={uranus}
+          feature="Meteors and Meteorites"
+          text="Our Sun is a 4.5 billion-year-old star – a hot glowing ball of hydrogen and helium at the center of our solar system. The Sun is about 93 million miles (150 million kilometers) from Earth, and without its energy, life as we know it could not exist here on our home planet."
+          title="What’s the difference between a meteoroid, a meteor, and a meteorite?"
+          alt="Meteor"
+          imgSrc={meteors}
         />
         <CardStructure
           feature="Asteroids, stone giants"
