@@ -7,6 +7,14 @@
     min-width: 370px;
 }
 
+.bg-info {
+    background-color: rgb(51, 51, 51)!important;
+}
+
 .bg-info:hover {
-    background-color: rgb(56, 162, 223)!important;
+    background-color: rgb(88, 88, 88)!important;
+}
+
+.bg-specific {
+    background-color: rgba(0, 0, 0, 0.747);
 }

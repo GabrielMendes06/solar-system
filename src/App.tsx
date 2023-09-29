@@ -9,9 +9,9 @@ function App() {
     <div className="App">        
       <header>
         <Navbar />
-      </header>
-      <main>
         <VideoContent />
+      </header>
+      <main className="main">      
         <MediumPage />
       </main>
     </div>

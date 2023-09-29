@@ -11,14 +11,14 @@ const PageContent: React.FC = () => {
   return (
     <>
       <Title
-        className="h1 text-center new-font m-4 border-bottom border-3 w-50 mx-auto"
+        className="h1 text-light text-center new-font p-4 border-bottom border-dark border-3 w-50 mx-auto"
         content="Curiosities about the solar system"
       />
       <div className="row">
         <CardStructure
           feature="Information about our star"
           text="Our Sun is a 4.5 billion-year-old star – a hot glowing ball of hydrogen and helium at the center of our solar system. The Sun is about 93 million miles (150 million kilometers) from Earth, and without its energy, life as we know it could not exist here on our home planet."
-          title="sun, the star that warms us"
+          title="Sun, the star that warms us"
           alt="Sun"
           imgSrc={sun}
         />

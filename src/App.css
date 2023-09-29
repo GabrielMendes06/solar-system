@@ -14,3 +14,9 @@
 .carousel-item:hover div {
     cursor: pointer;
 }
+
+.main {
+    background-image: url(assets/universe.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+}
