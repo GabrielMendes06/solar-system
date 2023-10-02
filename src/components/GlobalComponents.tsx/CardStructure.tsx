@@ -20,7 +20,7 @@ const CardStructure: React.FC<CardsStructureProps> = ( { feature, text, title, i
           <Card.Text>
             { text }
           </Card.Text>
-          <Button variant="primary max-w-200 bg-info button-hover">About more</Button>
+          <Button variant="primary max-w-200 bg-info button-hover m-inline-auto">About more</Button>
         </Card.Body>
       </Card>
     </div>

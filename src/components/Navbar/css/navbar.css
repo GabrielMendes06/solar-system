@@ -29,7 +29,7 @@
 
 .config-text {
   font-size: 1em;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   font-weight: 600;
   margin: 0;
 }
@@ -102,10 +102,6 @@
 }
 
 @media(max-width: 768px) {
-  .config-text {
-    font-size: 1.2em;
-  }
-
   .dropdown-button button {
     font-size: 1.3em;
   }
