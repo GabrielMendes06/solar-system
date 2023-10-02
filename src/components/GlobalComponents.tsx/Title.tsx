@@ -1,6 +1,6 @@
 interface PropTitle {
-    content: string
-    className: string
+    content: string | React.ReactNode
+    className?: string
 }
 
 const Title: React.FC<PropTitle> = ( {content, className } ) => {

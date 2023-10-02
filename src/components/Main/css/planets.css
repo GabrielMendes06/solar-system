@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.text-medium {
+    font-size: 0.7em;
+}
+
+.all-cards-size {
+    height: 400px;
+    
+    background-position: center, center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    min-width: 250px;
+    max-width: 300px;
+}
+
+.mercury-bg {
+    background-image: url(../assets/mercury\(card\).jpg);
+}
+
+.venus-bg {
+    background-image: url(../assets/venus\(card\).jpg);
+}
+
+.earth-bg {
+    background-image: url(../assets/earth.jpg);
+}
+
+.mars-bg {
+    background-image: url(../assets/mars\(card\).jpg);
+}
+
+.jupiter-bg {
+    background-image: url(../assets/jupiter\(card\).jpg);
+}
+
+.saturn-bg {
+    background-image: url(../assets/saturn\(card\).png);
+}
+
+.uranus-bg {
+    background-image: url(../assets/uranus\(card.jpg);
+}
+
+.neptune-bg {
+    background-image: url(../assets/neptune\(card\).jpg);
+}
+
+.sobreposto {
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.507);
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.sobreposto:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.sobreposto div {
+    cursor: pointer;
+}

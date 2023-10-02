@@ -49,7 +49,7 @@ const NavbarModal: React.FC = () => {
       </div>
       <div className="show-mobile">
         <Button className="me-2 mb-2" onClick={() => handleShow(values)}>
-          <i className="bi bi-list icon-burguer   display-1 text-light bg-transparent rounded-circle"></i>
+          <i className="bi bi-list icon-burguer display-1 text-light bg-transparent rounded-circle"></i>
         </Button>
       </div>
       <Modal

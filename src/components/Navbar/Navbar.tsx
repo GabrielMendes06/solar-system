@@ -25,10 +25,10 @@ const Navbar: React.FC = () => {
     return(     
             <div className={`${navbarClass} w-100  transiction position-fixed`} id="overlaid">
                 <div className="row">
-                    <ColumNav className="col-sm d-flex align-items-center w-75">
+                    <ColumNav className="col-sm d-flex align-items-center w-75 text-small">
                         <ApresentationMark />
                     </ColumNav>
-                    <ColumNav className="col-sm d-flex align-items-center justify-content-end w-25">
+                    <ColumNav className="col-sm d-flex align-items-center justify-content-end w-25 text-small">
                         <NavbarModal />
                     </ColumNav>                
                 </div>                         

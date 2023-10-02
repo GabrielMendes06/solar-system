@@ -1,5 +1,5 @@
 interface TParagraph {
-    className: string
+    className?: string
     content: string
 }
 
