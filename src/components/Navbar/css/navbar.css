@@ -11,6 +11,10 @@
   z-index: 2;
 }
 
+.bg-nav {
+  background-color: rgb(13, 57, 151);
+}
+
 .flex {
     display: flex;
     align-items: center;

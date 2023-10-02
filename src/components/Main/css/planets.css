@@ -11,7 +11,7 @@
     height: 400px;
     
     background-position: center, center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     padding: 0;
     min-width: 250px;
@@ -39,11 +39,11 @@
 }
 
 .saturn-bg {
-    background-image: url(../assets/saturn\(card\).png);
+    background-image: url(../assets/saturn\(card\).jpg);
 }
 
 .uranus-bg {
-    background-image: url(../assets/uranus\(card.jpg);
+    background-image: url(../assets/uranus\(card\).jpg)
 }
 
 .neptune-bg {

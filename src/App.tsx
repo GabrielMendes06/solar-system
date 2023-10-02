@@ -6,6 +6,7 @@ import NightBackground from "./components/Main/MediumPage/NightBackground";
 import ParallaxContent from "./components/Main/ParallaxContent/ParallaxContent";
 import Intercession from "./components/Main/MediumPage/Intercession";
 import CardContainer from "./components/Main/MediumPage/CardContainer";
+import FinalPage from "./components/Footer/FinalPage";
 
 function App() {
   return (
@@ -25,7 +26,9 @@ function App() {
         </NightBackground>
       </main>
       <footer>
-        
+        <NightBackground>
+          <FinalPage />
+        </NightBackground>
       </footer>
     </div>
   );

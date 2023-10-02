@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
 
         const handleScroll = () => {
             if(window.scrollY > 100) {
-                setNavbarClass('bg-primary');
+                setNavbarClass('bg-nav');
             } else {
                 setNavbarClass('bg-transparent')
             }

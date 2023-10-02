@@ -9,7 +9,7 @@ interface CardContainerProps {
 
 const CardPlanets: React.FC<CardContainerProps> = ({ className, content }) => {
     return(
-        <div className={ `${className} all-cards-size m-2` }>
+        <div className={ `${className} all-cards-size m-4` }>
             <div className='sobreposto d-flex align-items-end justify-content-center'>
                 <Title content={<div className='d-flex '>
                     <p className='text-medium mx-2'>{content}</p>

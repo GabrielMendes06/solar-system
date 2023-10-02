@@ -1,0 +1,13 @@
+.size {
+    font-size: 2em;
+}
+
+.flex .bi:hover {
+    color: rgb(165, 165, 165)!important;
+    cursor: pointer;
+}
+
+.container-footer {
+    width: 98%;
+    margin: auto;
+}

@@ -1,8 +1,10 @@
 import CardPlanets from "../../GlobalComponents.tsx/CardPlanets";
+import Title from "../../GlobalComponents.tsx/Title";
 
 const CardContainer: React.FC = () => {
   return (
     <div className="container">
+      <Title content='Planets' className="text-center text-light pt-5"/>
       <div className="row d-flex justify-content-center">    
         <CardPlanets className="mercury-bg" content="MERCURY"/>
         <CardPlanets className="venus-bg" content="VENUS"/>

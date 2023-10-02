@@ -4,7 +4,7 @@ import "../css/mediumPage.css";
 
 const MediumPage: React.FC = () => {
   return (
-    <div className="container border-bottom">
+    <div className="container">
       <PageContent />
     </div>
   );
