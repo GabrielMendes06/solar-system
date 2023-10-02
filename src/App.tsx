@@ -22,8 +22,11 @@ function App() {
         <ParallaxContent />
         <NightBackground>
           <CardContainer />
-        </NightBackground>    
+        </NightBackground>
       </main>
+      <footer>
+        
+      </footer>
     </div>
   );
 }
