@@ -37,35 +37,3 @@
     transition: 0.5s;
     opacity: 1;
 }
-
-.mercury-bg {
-    background-image: url(../assets/mercury\(card\).jpg);
-}
-
-.venus-bg {
-    background-image: url(../assets/venus\(card\).jpg);
-}
-
-.earth-bg {
-    background-image: url(../assets/earth.jpg);
-}
-
-.mars-bg {
-    background-image: url(../assets/mars\(card\).jpg);
-}
-
-.jupiter-bg {
-    background-image: url(../assets/jupiter\(card\).jpg);
-}
-
-.saturn-bg {
-    background-image: url(../assets/saturn\(card\).jpg);
-}
-
-.uranus-bg {
-    background-image: url(../assets/uranus\(card\).jpg)
-}
-
-.neptune-bg {
-    background-image: url(../assets/neptune\(card\).jpg);
-} 
