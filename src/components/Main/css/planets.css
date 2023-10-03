@@ -8,14 +8,34 @@
 }
 
 .all-cards-size {
-    height: 400px;
-    
-    background-position: center, center;
     background-size: contain;
     background-repeat: no-repeat;
     padding: 0;
     min-width: 250px;
     max-width: 300px;
+    transition: 0.5s;
+}
+
+#children-card {
+    transition: 0.5s;
+    z-index: -5;
+    opacity: 0;
+    margin-left: -220px;
+}
+
+.animation-planet {
+    transition: 0.5s;
+}
+
+.animation-planet:hover {
+    transform: translate(-200px);
+    transition: 0.5s;
+}
+
+.animation-planet:hover #children-card {
+    transform: translate(220px, 0);
+    transition: 0.5s;
+    opacity: 1;
 }
 
 .mercury-bg {
@@ -48,21 +68,4 @@
 
 .neptune-bg {
     background-image: url(../assets/neptune\(card\).jpg);
-}
-
-.sobreposto {
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.507);
-    width: 100%;
-    opacity: 0;
-    transition: 0.5s;
-}
-
-.sobreposto:hover {
-    opacity: 1;
-    transition: 0.5s;
-}
-
-.sobreposto div {
-    cursor: pointer;
-}
+} 
