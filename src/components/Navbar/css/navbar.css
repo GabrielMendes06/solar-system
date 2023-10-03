@@ -107,7 +107,19 @@
 
 @media(max-width: 768px) {
   .dropdown-button button {
+    font-size: 1.4em;
+  }
+
+  .config-text {
+    font-size: 1.2em;
+  }
+
+  .icon-nav {
     font-size: 1.3em;
+  }
+
+  .icon-burguer {
+    font-size: 1.5em;
   }
 
   .icon-nav {
