@@ -52,6 +52,11 @@
     z-index: 0;
 }
 
+.m-image {
+    width: 100%;
+    max-width: 300px;
+}
+
 .twinkling {
     background:  transparent url(../assets/twinkling.png) repeat top center;
     z-index: 1;

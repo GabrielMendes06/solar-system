@@ -16,7 +16,7 @@ const CardStructure: React.FC<CardsStructureProps> = ( { feature, text, title, i
         <Card.Header as="h5" className='border-bottom border-dark '>{ feature }</Card.Header>
         <Card.Body className='d-flex flex-column'>
           <Card.Title>{ title }</Card.Title>
-          <img src={imgSrc} alt={alt}  className='w-100 align-self-center m-4'/>
+          <img src={imgSrc} alt={alt}  className='m-image align-self-center m-4'/>
           <Card.Text>
             { text }
           </Card.Text>

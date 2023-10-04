@@ -1,8 +1,30 @@
+.video-content {
+    height: 100vh;
+    display: flex;
+    align-items: end;
+}
+
+.earth-video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: left;
+    position: absolute;
+}
+
 .caroulsel-content {
     height: max-content;
     padding: 1em;
     background-color: rgba(0, 0, 0, 0.301);
+    width: 100%;
+    display: flex;
 }
+
+
+.carousel-item:hover div {
+    cursor: pointer;
+}
+
 
 .carousel-indicators  {
     display: none; 

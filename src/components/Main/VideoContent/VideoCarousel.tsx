@@ -1,8 +1,7 @@
 import Carousel from "react-bootstrap/Carousel";
-
+ 
 const VideoCarousel: React.FC = () => {
   return (
-    <div className="caroulsel-content w-100 align-self-end">
       <Carousel interval={null}>
         <Carousel.Item>
           <div className="d-flex flex-column justify-content-center align-items-center text-small">
@@ -45,7 +44,6 @@ const VideoCarousel: React.FC = () => {
           </div>
         </Carousel.Item>
       </Carousel>
-    </div>
   );
 };
 
