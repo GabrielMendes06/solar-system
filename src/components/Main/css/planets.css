@@ -11,8 +11,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     padding: 0;
-    min-width: 250px;
-    max-width: 300px;
+    width: 300px;
     transition: 0.5s;
 }
 
@@ -28,12 +27,12 @@
 }
 
 .animation-planet:hover {
-    transform: translate(-200px);
+    transform: translate(-220px);
     transition: 0.5s;
 }
 
 .animation-planet:hover #children-card {
-    transform: translate(220px, 0);
+    transform: translate(230px, 0);
     transition: 0.5s;
     opacity: 1;
 }
