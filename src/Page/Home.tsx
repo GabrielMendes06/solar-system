@@ -10,7 +10,7 @@ import Navbar from "../components/Navbar/Navbar";
 
 const Home: React.FC = () => {
   return (
-    <div>
+    <>
       <header>
         <Navbar />
         <VideoContent />
@@ -30,7 +30,7 @@ const Home: React.FC = () => {
           <FinalPage />
         </NightBackground>
       </footer>
-    </div>
+    </>
   );
 };
 

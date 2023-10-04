@@ -48,7 +48,7 @@ const NavbarModal: React.FC = () => {
         <MeteorsDropDown />
       </div>
       <div className="show-mobile">
-        <Button className="me-2 mb-2" onClick={() => handleShow(values)}>
+        <Button onClick={() => handleShow(values)}>
           <i className="bi bi-list icon-burguer display-1 text-light bg-transparent rounded-circle"></i>
         </Button>
       </div>
@@ -58,7 +58,7 @@ const NavbarModal: React.FC = () => {
         onHide={() => setShow(false)}
       >
         <Modal.Header closeButton className="bg-primary">
-          <Modal.Title className="d-flex align-items-center">
+          <Modal.Title className="d-flex align-items-center w-75">
             <ApresentationMark />
           </Modal.Title>
         </Modal.Header>
