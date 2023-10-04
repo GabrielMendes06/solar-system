@@ -39,7 +39,7 @@
     to {background-position: -10000px 5000;}
 }
 
-.stars, .twinkling, .clouds {
+.stars, .twinkling {
     left: 0;
     right: 0;
     width: 100%;
@@ -48,7 +48,7 @@
 }
 
 .stars{
-    background: #000 url('../assets/stars.png') repeat top center;
+    background: #000 url('../assets/stars.webp') repeat top center;
     z-index: 0;
 }
 
@@ -58,7 +58,7 @@
 }
 
 .twinkling {
-    background:  transparent url(../assets/twinkling.png) repeat top center;
+    background:  transparent url(../assets/twinkling.webp) repeat top center;
     z-index: 1;
     animation: move-twinkle-back 30s linear infinite;
 }

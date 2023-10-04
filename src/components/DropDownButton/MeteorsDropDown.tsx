@@ -12,9 +12,9 @@ const MeteorsDropDown: React.FC = () => {
           <ul className="row flex-nowrap flex-row list-unstyled d-flex flex-column w-100">
             <div className="row">
               <div className="col-sm">
-                  <DropdownItem href="#/action-8" content="Meteoros & Meteoritos" />
-                  <DropdownItem href="#/action-8" content="Asteroides" />
-                  <DropdownItem href="#/action-1" content="Cometas" />
+                  <DropdownItem href="#/action-8" content="Meteors & Meteorites" />
+                  <DropdownItem href="#/action-8" content="Asteroids" />
+                  <DropdownItem href="#/action-1" content="Comets" />
               </div>
             </div>
           </ul>

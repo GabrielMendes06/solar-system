@@ -1,14 +1,14 @@
 import CardPlanets from "../../GlobalComponents.tsx/CardPlanets";
 import Title from "../../GlobalComponents.tsx/Title";
 import { Fade } from "react-awesome-reveal";
-import MercuryCard from "../assets/mercury(card).png"
-import VenusCard from "../assets/venus(card).png"
-import EarthCard from "../assets/earth.png"
-import MarsCard from "../assets/mars(card).png"
-import JupiterCard from "../assets/jupiter(card).png"
-import SaturnCard from "../assets/saturn(card).png"
-import UranusCard from "../assets/uranus(card).png"
-import NeptuneCard from "../assets/neptune(card).png"
+import MercuryCard from "../assets/mercury(card).webp"
+import VenusCard from "../assets/venus(card).webp"
+import EarthCard from "../assets/earth.webp"
+import MarsCard from "../assets/mars(card).webp"
+import JupiterCard from "../assets/jupiter(card).webp"
+import SaturnCard from "../assets/saturn(card).webp"
+import UranusCard from "../assets/uranus(card).webp"
+import NeptuneCard from "../assets/neptune(card).webp"
 
 
 const CardContainer: React.FC = () => {

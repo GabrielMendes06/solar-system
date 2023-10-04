@@ -56,7 +56,7 @@ const CardPlanets: React.FC<CardContainerProps> = ({ imgSrc, planetName }) => {
                 Density: {planetInfo?.density.toFixed(2)}  g/cm^3
               </Card.Text>
               <Button variant="dark" className="w-75">
-                About More
+                Read more
               </Button>
             </Card.Body>
           </Card>
