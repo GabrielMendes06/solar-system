@@ -5,7 +5,7 @@ const VideoCarousel: React.FC = () => {
     <div className="caroulsel-content w-100 align-self-end">
       <Carousel interval={null}>
         <Carousel.Item>
-          <div className="d-flex flex-column justify-content-center align-items-center">
+          <div className="d-flex flex-column justify-content-center align-items-center text-small">
             <p className="text-light new-font m-0">PLANETS</p>
             <div>
               <p className="text-light new-font m-0">
@@ -15,7 +15,7 @@ const VideoCarousel: React.FC = () => {
           </div>
         </Carousel.Item>
         <Carousel.Item>
-          <div className="d-flex flex-column justify-content-center align-items-center">
+          <div className="d-flex flex-column justify-content-center align-items-center text-small">
             <p className="text-light m-0 new-font">MOONS</p>
             <div>
               <p className="text-light new-font m-0">
@@ -25,7 +25,7 @@ const VideoCarousel: React.FC = () => {
           </div>
         </Carousel.Item>
         <Carousel.Item>
-          <div className="d-flex flex-column justify-content-center align-items-center">
+          <div className="d-flex flex-column justify-content-center align-items-center text-small">
             <p className="text-light m-0 new-font">ASTEROIDS AND SMALL BODIES</p>
             <div>
               <p className="text-light new-font m-0">
@@ -35,7 +35,7 @@ const VideoCarousel: React.FC = () => {
           </div>
         </Carousel.Item>
         <Carousel.Item>
-          <div className="d-flex flex-column justify-content-center align-items-center">
+          <div className="d-flex flex-column justify-content-center align-items-center text-small">
             <p className="text-light new-font m-0">COMETS</p>
             <div>
               <p className="text-light new-font m-0">

@@ -71,6 +71,10 @@
   font-size: 1.1em;
 }
 
+.dropdown-button button {
+  font-size: large;
+}
+
 .dropdown-item:hover {
   color: black;
   background-color: rgba(226, 226, 226, 0.575);
