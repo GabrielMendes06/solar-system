@@ -18,12 +18,12 @@ const CardPlanets: React.FC<CardContainerProps> = ({ imgSrc, planetName }) => {
     return tempKelvin - 273.15
   }
 
+  const planet = planets.filter((item: any) => {
+    return item.englishName == planetName //Muitas renderizações
+   })
+
   useEffect(() => {
-    const planet = planets.filter((item: any) => {
-        return item.englishName == planetName
-    })
-    setPlanetInfo(planet[0])
-    console.log(planets)  
+    setPlanetInfo(planet[0])  
   } 
   , [planets]);
 

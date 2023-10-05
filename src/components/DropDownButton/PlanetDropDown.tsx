@@ -26,7 +26,7 @@ const PlanetDropDown: React.FC = () => {
                   return (
                     <div className="col-6" key={planet.id}>
                       <DropdownItem
-                        href="#/action-1"
+                        href={`/${planet.englishName.toLowerCase()}`}
                         content={planet.englishName}
                       />
                     </div>

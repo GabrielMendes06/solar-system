@@ -47,7 +47,7 @@ const PageContent: React.FC = () => {
           />
           <CardStructure
             feature="Meteors and Meteorites"
-            text="Our Sun is a 4.5 billion-year-old star – a hot glowing ball of hydrogen and helium at the center of our solar system. The Sun is about 93 million miles (150 million kilometers) from Earth, and without its energy, life as we know it could not exist here on our home planet."
+            text="Comets are frozen leftovers from the formation of the solar system composed of dust, rock, and ices. They range from a few miles to tens of miles wide, but as they orbit closer to the Sun, they heat up and spew gases and dust into a glowing head that can be larger than a planet. This material forms a tail that stretches millions of miles."
             title="What’s the difference between a meteoroid, a meteor, and a meteorite?"
             alt="Meteor"
             imgSrc={meteors}
