@@ -4,7 +4,7 @@ import './css/footer.css'
 
 const FinalPage: React.FC = () => {
     return(
-        <div className="container m-auto bg-black">
+        <div className="container m-auto">
                 <div className="row border-bottom">
                     <div className="col-sm flex p-3">
                         <ApresentationMark />

@@ -1,4 +1,3 @@
-import { Carousel } from "react-bootstrap";
 import Navbar from "../../components/Navbar/Navbar";
 import TopOfPage from "../../components/SecondPagePlanets/TopOfPage";
 import "../../components/SecondPagePlanets/css/PagePlanets.css";
@@ -8,7 +7,6 @@ import FinalPage from "../../components/Footer/FinalPage";
 import Intercession from "../../components/Main/MediumPage/Intercession";
 import Paragraph from "../../components/GlobalComponents.tsx/Paragraph";
 import Title from "../../components/GlobalComponents.tsx/Title";
-import { ModelViewerElement } from '@google/model-viewer/lib/model-viewer'
 
 const Mercury: React.FC = () => {
   return (
@@ -57,6 +55,16 @@ const Mercury: React.FC = () => {
             </div>
           }
         />
+
+        <NightBackground>
+        <model-viewer
+        src="https://solarsystem.nasa.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBc0lRIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--5e8289c1b4c52f66ff97e4d5d6d51b0059a7bf90/Mercury_1_4878.glb?disposition=inline"
+        camera-controls
+        auto-rotate
+        id="planet-model"
+        >     
+        </model-viewer>
+        </NightBackground>
       </main>
       <footer>
         <NightBackground>
