@@ -21,24 +21,24 @@ const NavbarModal: React.FC = () => {
     setShow(true);
   }
 
-  async function SolarSystemInformations() {
-    try {
-      const resPlanets = await axios.get(
-        "https://api.le-systeme-solaire.net/rest.php/bodies?filter=isPlanet,eq,true"
-      );
-      const dwarfPlanets = await axios.get(
-        "https://api.le-systeme-solaire.net/rest.php/bodies?filter%5B%5D=bodyType%2Ceq%2CDwarf%20Planet"
-      );
-      setPlanets(resPlanets.data.bodies);
-      setDwarfPlanets(dwarfPlanets.data.bodies);
-    } catch (error) {
-      console.log(error);
-    }
-  }
-
   useEffect(() => {
+    async function SolarSystemInformations() {
+      try {
+        const resPlanets = await axios.get(
+          "https://api.le-systeme-solaire.net/rest.php/bodies?filter=isPlanet,eq,true"
+        );
+        const dwarfPlanets = await axios.get(
+          "https://api.le-systeme-solaire.net/rest.php/bodies?filter%5B%5D=bodyType%2Ceq%2CDwarf%20Planet"
+        );
+        setPlanets(resPlanets.data.bodies);
+        setDwarfPlanets(dwarfPlanets.data.bodies);
+      } catch (error) {
+        console.log(error);
+      }
+    }
+  
     SolarSystemInformations();
-  }, []);
+  }, [setPlanets, setDwarfPlanets]);
 
   return (
     <>

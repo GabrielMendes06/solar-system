@@ -26,5 +26,6 @@
     "**/*.ts",
     "**/*.tsx",
     "src/types/react.d.ts"
-  ]
+    
+  ],
 }

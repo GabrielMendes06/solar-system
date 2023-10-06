@@ -1,9 +1,6 @@
 import VideoCarousel from "../../Navbar/assets/earth-video.webm";
 import "../css/videoContent.css";
 import BottomCarousel from "../../GlobalComponents.tsx/BottomCarousel";
-import { Carousel } from "react-bootstrap";
-//import CarouselItem from "../../GlobalComponents.tsx/CarouselItem";
-import CarouselItem from "react-bootstrap/CarouselItem";
 
 const VideoContent: React.FC = () => {
   return (

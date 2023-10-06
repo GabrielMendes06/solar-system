@@ -12,9 +12,9 @@ const CustomDropdown: React.FC<Title> = ( { title, children } ) => {
   return (
     <DropdownButton className='dropdown-button m-3' title={title}>
       {children}
-    </DropdownButton>
+    </DropdownButton>  
   );
-  
+   
 }
 
 export default CustomDropdown;
