@@ -4,7 +4,7 @@ import { InfDwarfPlanets } from "../CompContext/infDwarfPlanets";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import ApresentationMark from "./ApresentationMark";
-import axios from "axios";
+ import axios from "axios"
 import PlanetDropDown from "../DropDownButton/PlanetDropDown";
 import MoonsDropDown from "../DropDownButton/MoonsDropDown";
 import MeteorsDropDown from "../DropDownButton/MeteorsDropDown";
