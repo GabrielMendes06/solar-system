@@ -1,4 +1,4 @@
-import "./css/PagePlanets.css";
+//components, css
 import Navbar from "../../components/Navbar/Navbar";
 import TopOfPage from "../../components/SecondPagePlanets/TopOfPage";
 import BottomCarousel from "../../components/GlobalComponents.tsx/BottomCarousel";
@@ -7,10 +7,11 @@ import FinalPage from "../../components/Footer/FinalPage";
 import Intercession from "../../components/Main/MediumPage/Intercession";
 import Paragraph from "../../components/GlobalComponents.tsx/Paragraph";
 import Title from "../../components/GlobalComponents.tsx/Title";
-
-import EarthModel from "./assets/models/earth.glb";
-
 import CardExploring from "../../components/GlobalComponents.tsx/CardExploring";
+import "./css/PagePlanets.css";
+
+//model
+import EarthModel from "./assets/models/earth.glb";
 
 const Earth: React.FC = () => {
   return (
@@ -60,7 +61,7 @@ const Earth: React.FC = () => {
                 content="Despite its proximity to the Sun, Mercury is not the hottest planet in our solar system— that title belongs to nearby Venus, thanks to its dense atmosphere. But Mercury is the fastest planet, zipping around the Sun every 88 Earth days. Mercury is appropriately named for the swiftest of the ancient Roman gods."
                 className="mb-3"
               />
-              <Title content="Size and Distance" className="mb-3"/>
+              <Title content="Size and Distance" className="mb-3" />
               <Paragraph content="With a radius of 3,959 miles (6,371 kilometers), Earth is the biggest of the terrestrial planets and the fifth largest planet overall." />
               <Paragraph content="From an average distance of 93 million miles (150 million kilometers), Earth is exactly one astronomical unit away from the Sun because one astronomical unit (abbreviated as AU), is the distance from the Sun to Earth. This unit provides an easy way to quickly compare planets' distances from the Sun." />
               <Paragraph content="It takes about eight minutes for light from the Sun to reach our planet." />
@@ -70,10 +71,12 @@ const Earth: React.FC = () => {
         <div className="container-for-modelviewer d-flex flex-column">
           <NightBackground>
             <model-viewer
+              disable-tap
+              auto-rotate
+              shadow-intensity="1"
               id="model-planet"
               src={EarthModel}
-              alt="earth model 3D"
-              auto-rotate
+              alt="Earth model 3D"
               camera-controls
             ></model-viewer>
           </NightBackground>
