@@ -76,6 +76,9 @@
     background-image: url(../assets/images/uranus-page.jpg);
 }
 
+.neptune {
+    background-image: url(../assets/images/neptune-page.webp); 
+}
 
 .card-exploring {
     height: 610px;
@@ -124,7 +127,7 @@
 }
 
 .keep-neptune {
-    background-image: url(../assets/images/neptune-page.jpg);
+    background-image: url(../assets/images/neptune-page.webp);
 }
 
 @media(max-width: 768px) {

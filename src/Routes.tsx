@@ -7,6 +7,7 @@ import Mars from "./Page/Planets/Mars"
 import Jupiter from "./Page/Planets/Jupiter"
 import Saturn from "./Page/Planets/Saturn"
 import Uranus from "./Page/Planets/Uranus"
+import Neptune from "./Page/Planets/Neptune"
 
 const AppRoutes: React.FC = () => {
     return(
@@ -21,6 +22,7 @@ const AppRoutes: React.FC = () => {
                 <Route path="/jupiter" element={ <Jupiter /> } />
                 <Route path="/saturn" element={ <Saturn /> } />
                 <Route path="/uranus" element={ <Uranus /> } />
+                <Route path="/neptune" element={ <Neptune /> } />
             </Routes>
         </Router>
     )
