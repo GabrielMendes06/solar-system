@@ -6,9 +6,13 @@ import moon from "../assets/moon.webp";
 import jupiter from "../assets/jupiter.webp";
 import uranus from "../assets/uranus.webp";
 import asteroid from "../assets/asteroid.webp";
+import { useNavigate } from "react-router-dom";
 import { Fade } from "react-awesome-reveal";
 
 const PageContent: React.FC = () => {
+
+  const navigate = useNavigate()
+
   return (
     <>
       <Title
@@ -30,6 +34,7 @@ const PageContent: React.FC = () => {
             title="The first planet discovered with the aid of a telescope."
             alt="Uranus"
             imgSrc={uranus}
+            onClick={() => navigate('/uranus')}  
           />
           <CardStructure
             feature="Moons of Our Solar System"
@@ -44,6 +49,7 @@ const PageContent: React.FC = () => {
             title="Jupiter is, by far, the largest planet in the solar system – more than twice as massive as all the other planets combined."
             alt="Jupiter"
             imgSrc={jupiter}
+            onClick={() => navigate('/jupiter')}
           />
           <CardStructure
             feature="Meteors and Meteorites"

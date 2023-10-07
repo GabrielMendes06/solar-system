@@ -7,9 +7,10 @@ interface CardsStructureProps {
   text?: string
   imgSrc?: string
   alt?: string
+  onClick?: React.MouseEventHandler<HTMLButtonElement>
 }
 
-const CardStructure: React.FC<CardsStructureProps> = ( { feature, text, title, imgSrc, alt }  ) => {
+const CardStructure: React.FC<CardsStructureProps> = ( { feature, text, title, imgSrc, alt, onClick }  ) => {
   return (
     <div className='col-sm min-w-360 mt-3 mb-4'>
       <Card className='h-100 text-light bg-specific'>
@@ -20,7 +21,7 @@ const CardStructure: React.FC<CardsStructureProps> = ( { feature, text, title, i
           <Card.Text>
             { text }
           </Card.Text>
-          <Button variant="primary max-w-200 bg-info button-hover m-inline-auto">Read more</Button>
+          <Button onClick={onClick} variant="primary max-w-200 bg-info button-hover m-inline-auto">Read more</Button>
         </Card.Body>
       </Card>
     </div>

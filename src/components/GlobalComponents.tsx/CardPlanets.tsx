@@ -7,9 +7,10 @@ import { InfSolarSystem } from "../CompContext/InfSolarSystem";
 interface CardContainerProps {
   imgSrc: string;
   planetName?: string
+  onClick: React.MouseEventHandler
 }
 
-const CardPlanets: React.FC<CardContainerProps> = ({ imgSrc, planetName }) => {
+const CardPlanets: React.FC<CardContainerProps> = ({ imgSrc, planetName, onClick }) => {
   const { planets } = useContext(InfSolarSystem);
   
   const [planetInfo, setPlanetInfo] = useState<any>()
@@ -54,7 +55,7 @@ const CardPlanets: React.FC<CardContainerProps> = ({ imgSrc, planetName }) => {
               <Card.Text>
                 Density: {planetInfo?.density.toFixed(2)}  g/cm^3
               </Card.Text>
-              <Button variant="dark" className="w-75">
+              <Button variant="dark" className="w-75" onClick={onClick}>
                 Read more
               </Button>
             </Card.Body>
