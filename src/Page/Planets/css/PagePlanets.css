@@ -64,6 +64,10 @@
     background-image: url(../assets/images/mars-page.webp);
 }
 
+.jupiter {
+    background-image: url(../assets/images/jupiter-page.webp);
+}
+
 
 .card-exploring {
     height: 610px;
