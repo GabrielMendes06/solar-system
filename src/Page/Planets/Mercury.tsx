@@ -7,7 +7,7 @@ import FinalPage from "../../components/Footer/FinalPage";
 import Intercession from "../../components/Main/MediumPage/Intercession";
 import Paragraph from "../../components/GlobalComponents.tsx/Paragraph";
 import Title from "../../components/GlobalComponents.tsx/Title";
-import MercuryModel from "./assets/models/mercurio.glb";
+import MercuryModel from "./assets/models/mercury.glb";
 import CardExploring from "../../components/GlobalComponents.tsx/CardExploring";
 
 const Mercury: React.FC = () => {
@@ -38,6 +38,10 @@ const Mercury: React.FC = () => {
                   title: "GRAVITY",
                   content: "3.7 m/s^2",
                 },
+                {
+                  title: "DENSITY",
+                  content: "5.43 g/cm^3"
+                }
               ]}
             />
           }
@@ -62,7 +66,7 @@ const Mercury: React.FC = () => {
             <model-viewer
               id="model-planet"
               src={MercuryModel}
-              alt="Modelo 3D"
+              alt="Mercury model 3D"
               auto-rotate
               camera-controls
             ></model-viewer>
@@ -77,7 +81,7 @@ const Mercury: React.FC = () => {
           </div>         
         </div>
         <div className="container new-font">
-          <Title content='Estructure'
+          <Title content='Structure'
           className="mb-3"/>
           <Paragraph content="Mercury is the second densest planet, after Earth. It has a large metallic core with a radius of about 1,289 miles (2,074 kilometers), about 85% of the planet's radius. There is evidence that it is partly molten or liquid. Mercury's outer shell, comparable to Earth's outer shell (called the mantle and crust), is only about 400 kilometers (250 miles) thick."/>
           <Paragraph content="Most of Mercury's surface would appear greyish-brown to the human eye. The bright streaks are called 'crater rays'. They are formed when an asteroid or comet strikes the surface. The tremendous amount of energy that is released in such an impact digs a big hole in the ground, and also crushes a huge amount of rock under the point of impact. Some of this crushed material is thrown far from the crater and then falls to the surface, forming the rays. Fine particles of crushed rock are more reflective than large pieces, so the rays look brighter. The space environment – dust impacts and solar-wind particles – causes the rays to darken with time." />
@@ -93,17 +97,17 @@ const Mercury: React.FC = () => {
             />
             <CardExploring
             className="keep-jupiter style-background"
-              content="Earth"
+              content="Jupiter"
               icon={<i className="bi bi-arrow-right"></i>}
             />
             <CardExploring
             className="keep-saturn style-background"
-              content="Earth"
+              content="Saturn"
               icon={<i className="bi bi-arrow-right"></i>}
             />
             <CardExploring
             className="keep-venus style-background"
-              content="Earth"
+              content="Venus"
               icon={<i className="bi bi-arrow-right"></i>}
             />
           </div>

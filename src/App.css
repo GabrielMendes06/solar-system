@@ -9,3 +9,7 @@ html, body {
     cursor: pointer;
 }
 
+.transition {
+    transition: 0.5s;
+}
+

@@ -8,7 +8,7 @@ interface CardExploringProps {
 
 const CardExploring: React.FC<CardExploringProps> = ( { content, icon, className }  ) => {
     return(
-        <Card className={`${className} rounded-0 border-0 cursor-pointer col-sm m-3`} style={{ minWidth: '18rem', maxWidth: '18rem' ,height: "610px"}}>
+        <Card className={`${className} transition card-exploring rounded-0 border-0 cursor-pointer col-sm m-3`} >
         <Card.Body className='d-flex'>
           <Card.Text className='mt-auto style-font text-light'>
             {content}  {icon}

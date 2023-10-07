@@ -1,11 +1,4 @@
-.mercury {
-    background-image: url(../assets/images/mercury-page.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 100dvh;
-    flex-wrap: wrap!important; 
-}
+
 
 .bg-higher {
     background-color: rgba(0, 0, 0, 0.534);
@@ -45,7 +38,40 @@
     font-size: 1.6em;
 }
 
-/*background-cards*/
+/* top-background */
+
+.style-top-background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100dvh;
+    flex-wrap: wrap!important; 
+}
+
+.mercury {
+    background-image: url(../assets/images/mercury-page.webp);
+}
+
+.earth {
+    background-image: url(../assets/images/earth-page.webp);
+}
+
+.card-exploring {
+    height: 610px;
+    min-width: 18rem;
+    max-width: 28rem;
+}
+
+/* background-cards */
+
+.style-background {
+    background-position: center;
+    background-size: cover;
+}
+
+.style-background:hover {
+    transform: scale(1.1);
+}
 
 .keep-mercury {
     background-image: url(../assets/images/mercury-page.webp);
@@ -80,14 +106,13 @@
     background-image: url(../assets/images/neptune-page.jpg);
 }
 
-.style-background {
-    background-position: center;
-    background-size: cover;
-}
-
 @media(max-width: 768px) {
     .margin-left-20 {
         margin-left: 0;
+    }
+
+    .style-background:hover {
+        transform: none;
     }
 
     .container-for-modelviewer {
