@@ -72,6 +72,10 @@
     background-image: url(../assets/images/saturn-page.webp);
 }
 
+.uranus {
+    background-image: url(../assets/images/uranus-page.jpg);
+}
+
 
 .card-exploring {
     height: 610px;
