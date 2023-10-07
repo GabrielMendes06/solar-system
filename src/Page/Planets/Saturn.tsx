@@ -11,41 +11,39 @@ import CardExploring from "../../components/GlobalComponents.tsx/CardExploring";
 import "./css/PagePlanets.css";
 
 //model
-import VenusModel from "./assets/models/venus.glb";
+import SaturnModel from "./assets/models/saturn.glb";
 
-
-
-const Venus: React.FC = () => {
+const Saturn: React.FC = () => {
   return (
     <>
       <header>
         <Navbar />
         <TopOfPage
-          planet="venus"
-          cardTitle="Venus"
-          cardText="Although it's similar in structure and size to Earth, Venus has a thick atmosphere that traps heat in a runaway greenhouse effect, making it the hottest planet in our solar system."
+          planet="saturn"
+          cardTitle="Saturn"
+          cardText="Saturn's beautiful rings are relatively young. They may have formed in the era of the dinosaurs here on Earth."
           carousel={
             <BottomCarousel
               children={[
                 {
                   title: "DAYS IN A YEAR",
-                  content: "225",
+                  content: "10.755",
                 },
                 {
                   title: "AVG TEMPERATURE",
-                  content: "463.85ºC",
+                  content: "-139.15ºC",
                 },
                 {
                   title: "MASS",
-                  content: "4.86747 x 10^24",
+                  content: "5.68336 x 10^26",
                 },
                 {
                   title: "GRAVITY",
-                  content: "8.87 m/s^2",
+                  content: "10.44 m/s^2",
                 },
                 {
                   title: "DENSITY",
-                  content: "5.24 g/cm^3",
+                  content: "0.69 g/cm^3",
                 },
               ]}
             />
@@ -57,44 +55,47 @@ const Venus: React.FC = () => {
           children={
             <div>
               <Title content="Overview" className="mb-3" />
-              <Paragraph content="It's a cloud-swaddled planet named for a love goddess, and often called Earth’s twin. But pull up a bit closer, and Venus turns hellish. Our nearest planetary neighbor, the second planet from the Sun, has a surface hot enough to melt lead. The atmosphere is so thick that, from the surface, the Sun is just a smear of light." />
-              <Paragraph content="In some ways it is more an opposite of Earth than a twin: Venus spins backward, has a day longer than its year, and lacks any semblance of seasons. It might once have been a habitable ocean world, like Earth, but that was at least a billion years ago. A runaway greenhouse effect turned all surface water into vapor, which then leaked slowly into space. The present-day surface of volcanic rock is blasted by high temperatures and pressures. Asked if the surface of Venus is likely to be life-bearing today, we can give a quick answer: a hard “no.”" />
+              <Paragraph content="Saturn is the sixth planet from the Sun and the second largest planet in our solar system. Adorned with a dazzling system of icy rings, Saturn is unique among the planets." />
+              <Paragraph content="It is not the only planet to have rings, but none are as spectacular or as complex as Saturn's. Like fellow gas giant Jupiter, Saturn is a massive ball made mostly of hydrogen and helium." />
               <Paragraph
-                content="Further, Venus may hold lessons about what it takes for life to get its start ­– on Earth, in our solar system, or across the galaxy. The ingredients are all there, or at least, they used to be. By studying why our neighbor world went in such a different direction with regard to habitability, we could find out what could make other worlds right. And while it might sound absurd, we can’t rule out life on Venus entirely. Temperature, air pressure, and chemistry are much more congenial up high, in those thick, yellow clouds."
+                content="The farthest planet from Earth discovered by the unaided human eye, Saturn has been known since ancient times. The planet is named for the Roman god of agriculture and wealth, who was also the father of Jupiter."
                 className="mb-3"
               />
-              <Title content="Size and Distance" className="mb-3"/>
-              <Paragraph content="Our nearness to Venus is a matter of perspective. The planet is nearly as big around as Earth – 7,521 miles (12,104 kilometers) across, versus 7,926 miles (12,756 kilometers) for Earth. From Earth, Venus is the brightest object in the night sky after our own Moon. The ancients, therefore, gave it great importance in their cultures, even thinking it was two objects: a morning star and an evening star. That’s where the trick of perspective comes in." />
-              <Paragraph content="Because Venus’ orbit is closer to the Sun than ours, the two of them – from our viewpoint – never stray far from each other. The ancient Egyptians and Greeks saw Venus in two guises: first in one orbital position (seen in the morning), then another (your “evening” Venus), just at different times of the year." />
-              <Paragraph content ="At its nearest to Earth, Venus is some 38 million miles (about 61 million kilometers) distant. But most of the time the two planets are farther apart; Mercury, the innermost planet, actually spends more time in Earth’s proximity than Venus." />
+              <Title content="Size and Distance" className="mb-3" />
+              <Paragraph content="With a radius of 36,183.7 miles (58,232 kilometers), Saturn is 9 times wider than Earth. If Earth were the size of a nickel, Saturn would be about as big as a volleyball." />
+              <Paragraph content="From an average distance of 886 million miles (1.4 billion kilometers), Saturn is 9.5 astronomical units away from the Sun. One astronomical unit (abbreviated as AU), is the distance from the Sun to Earth. From this distance, it takes sunlight 80 minutes to travel from the Sun to Saturn." />
             </div>
           }
         />
         <div className="container-for-modelviewer d-flex flex-column">
           <NightBackground>
-            <model-viewer 
-              disable-tap 
-              auto-rotate 
-              shadow-intensity="1" 
+            <model-viewer
+              disable-tap
+              auto-rotate
+              shadow-intensity="1"
               id="model-planet"
-              src={VenusModel}
-              alt="Venus model 3D"
+              src={SaturnModel}
+              alt="Saturn model 3D"
               camera-controls
             ></model-viewer>
           </NightBackground>
 
           <div className="align-self-start model-description">
             <Paragraph
-              content="A 3D model of Venus."
+              content="A 3D model of Saturn, the ringed gas giant planet."
               className="text-secondary m-0"
             />
             <Paragraph content="Use our technology and have fun!" />
           </div>
         </div>
-        <div className="container new-font">
+        <div className="container new-font text-small">
+          <Title content="Rings"/>
+          <Paragraph content="Saturn's rings are thought to be pieces of comets, asteroids, or shattered moons that broke up before they reached the planet, torn apart by Saturn's powerful gravity. They are made of billions of small chunks of ice and rock coated with other materials such as dust. The ring particles mostly range from tiny, dust-sized icy grains to chunks as big as a house. A few particles are as large as mountains. The rings would look mostly white if you looked at them from the cloud tops of Saturn, and interestingly, each ring orbits at a different speed around the planet."/>
+          <Paragraph content="Saturn's ring system extends up to 175,000 miles (282,000 kilometers) from the planet, yet the vertical height is typically about 30 feet (10 meters) in the main rings. Named alphabetically in the order they were discovered, the rings are relatively close to each other, with the exception of a gap measuring 2,920 miles (4,700 kilometers) in width called the Cassini Division that separates Rings A and B. The main rings are A, B, and C. Rings D, E, F, and G are fainter and more recently discovered."/>
+          <Paragraph content="Starting at Saturn and moving outward, there is the D ring, C ring, B ring, Cassini Division, A ring, F ring, G ring, and finally, the E ring. Much farther out, there is the very faint Phoebe ring in the orbit of Saturn's moon Phoebe." />
           <Title content="Structure" className="mb-3" />
-          <Paragraph content="If we could slice Venus and Earth in half, pole to pole, and place them side by side, they would look remarkably similar. Each planet has an iron core enveloped by a hot-rock mantle; the thinnest of skins forms a rocky, exterior crust. On both planets, this thin skin changes form and sometimes erupts into volcanoes in response to the ebb and flow of heat and pressure deep beneath." />
-          <Paragraph content="On Earth, the slow movement of continents over thousands and millions of years reshapes the surface, a process known as “plate tectonics.” Something similar might have happened on Venus early in its history. Today a key element of this process could be operating: subduction, or the sliding of one continental “plate” beneath another, which can also trigger volcanoes. Subduction is believed to be the first step in creating plate tectonics." />
+          <Paragraph content="Like Jupiter, Saturn is made mostly of hydrogen and helium. At Saturn's center is a dense core of metals like iron and nickel surrounded by rocky material and other compounds solidified by intense pressure and heat. It is enveloped by liquid metallic hydrogen inside a layer of liquid hydrogen –similar to Jupiter's core but considerably smaller." />
+          <Paragraph content="It's hard to imagine, but Saturn is the only planet in our solar system with an average density that is less than water. The giant gas planet could float in a bathtub if such a colossal thing existed." />
         </div>
         <div className="container mb-5">
           <Paragraph content="KEEP EXPLORING" className="text-exploring mt-5" />
@@ -132,4 +133,4 @@ const Venus: React.FC = () => {
   );
 };
 
-export default Venus;
+export default Saturn;

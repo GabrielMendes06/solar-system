@@ -68,6 +68,10 @@
     background-image: url(../assets/images/jupiter-page.webp);
 }
 
+.saturn {
+    background-image: url(../assets/images/saturn-page.webp);
+}
+
 
 .card-exploring {
     height: 610px;

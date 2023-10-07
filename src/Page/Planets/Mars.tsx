@@ -88,7 +88,7 @@ const Mars: React.FC = () => {
             <Paragraph content="Use our technology and have fun!" />
           </div>
         </div>
-        <div className="container new-font">
+        <div className="container new-font text-small">
           <Title content="Structure" className="mb-3" />
           <Paragraph content="Mars has a dense core at its center between 930 and 1,300 miles (1,500 to 2,100 kilometers) in radius. It's made of iron, nickel, and sulfur. Surrounding the core is a rocky mantle between 770 and 1,170 miles (1,240 to 1,880 kilometers) thick, and above that, a crust made of iron, magnesium, aluminum, calcium, and potassium. This crust is between 6 and 30 miles (10 to 50 kilometers) deep." />
         </div>

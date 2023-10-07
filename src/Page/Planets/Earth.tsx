@@ -89,7 +89,7 @@ const Earth: React.FC = () => {
             <Paragraph content="Use our technology and have fun!" />
           </div>
         </div>
-        <div className="container new-font">
+        <div className="container new-font text-small">
           <Title content="Structure" className="mb-3" />
           <Paragraph content="Earth is composed of four main layers, starting with an inner core at the planet's center, enveloped by the outer core, mantle, and crust." />
           <Paragraph content="The inner core is a solid sphere made of iron and nickel metals about 759 miles (1,221 kilometers) in radius. There the temperature is as high as 9,800 degrees Fahrenheit (5,400 degrees Celsius). Surrounding the inner core is the outer core. This layer is about 1,400 miles (2,300 kilometers) thick, made of iron and nickel fluids." />

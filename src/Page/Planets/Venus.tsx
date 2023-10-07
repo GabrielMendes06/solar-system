@@ -91,7 +91,7 @@ const Venus: React.FC = () => {
             <Paragraph content="Use our technology and have fun!" />
           </div>
         </div>
-        <div className="container new-font">
+        <div className="container new-font text-small">
           <Title content="Structure" className="mb-3" />
           <Paragraph content="If we could slice Venus and Earth in half, pole to pole, and place them side by side, they would look remarkably similar. Each planet has an iron core enveloped by a hot-rock mantle; the thinnest of skins forms a rocky, exterior crust. On both planets, this thin skin changes form and sometimes erupts into volcanoes in response to the ebb and flow of heat and pressure deep beneath." />
           <Paragraph content="On Earth, the slow movement of continents over thousands and millions of years reshapes the surface, a process known as “plate tectonics.” Something similar might have happened on Venus early in its history. Today a key element of this process could be operating: subduction, or the sliding of one continental “plate” beneath another, which can also trigger volcanoes. Subduction is believed to be the first step in creating plate tectonics." />
