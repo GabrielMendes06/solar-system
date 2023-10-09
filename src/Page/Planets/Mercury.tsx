@@ -9,6 +9,7 @@ import Paragraph from "../../components/GlobalComponents.tsx/Paragraph";
 import Title from "../../components/GlobalComponents.tsx/Title";
 import MercuryModel from "./assets/models/mercury.glb";
 import CardExploring from "../../components/GlobalComponents.tsx/CardExploring";
+import ScrollToTop from "../../components/GlobalComponents.tsx/ScrollToTop";
 
 const Mercury: React.FC = () => {
   return (
@@ -119,6 +120,7 @@ const Mercury: React.FC = () => {
           <FinalPage />
         </NightBackground>
       </footer>
+      <ScrollToTop />
     </>
   );
 };

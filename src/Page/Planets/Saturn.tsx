@@ -12,6 +12,7 @@ import "./css/PagePlanets.css";
 
 //model
 import SaturnModel from "./assets/models/saturn.glb";
+import ScrollToTop from "../../components/GlobalComponents.tsx/ScrollToTop";
 
 const Saturn: React.FC = () => {
   return (
@@ -129,6 +130,7 @@ const Saturn: React.FC = () => {
           <FinalPage />
         </NightBackground>
       </footer>
+      <ScrollToTop />
     </>
   );
 };

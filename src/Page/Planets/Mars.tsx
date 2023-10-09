@@ -12,6 +12,7 @@ import "./css/PagePlanets.css";
 
 //model
 import MarsModel from "./assets/models/mars.glb";
+import ScrollToTop from "../../components/GlobalComponents.tsx/ScrollToTop";
 
 
 
@@ -124,6 +125,7 @@ const Mars: React.FC = () => {
           <FinalPage />
         </NightBackground>
       </footer>
+      <ScrollToTop />
     </>
   );
 };

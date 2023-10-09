@@ -12,6 +12,7 @@ import "./css/PagePlanets.css";
 
 //model
 import VenusModel from "./assets/models/venus.glb";
+import ScrollToTop from "../../components/GlobalComponents.tsx/ScrollToTop";
 
 
 
@@ -128,6 +129,7 @@ const Venus: React.FC = () => {
           <FinalPage />
         </NightBackground>
       </footer>
+      <ScrollToTop />
     </>
   );
 };

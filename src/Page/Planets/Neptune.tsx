@@ -12,6 +12,7 @@ import "./css/PagePlanets.css";
 
 //model
 import NeptuneModel from "./assets/models/neptune.glb";
+import ScrollToTop from "../../components/GlobalComponents.tsx/ScrollToTop";
 
 
 
@@ -129,6 +130,7 @@ const Neptune: React.FC = () => {
           <FinalPage />
         </NightBackground>
       </footer>
+      <ScrollToTop />
     </>
   );
 };

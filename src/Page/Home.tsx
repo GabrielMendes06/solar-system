@@ -1,5 +1,6 @@
 import FinalPage from "../components/Footer/FinalPage";
 import Paragraph from "../components/GlobalComponents.tsx/Paragraph";
+import ScrollToTop from "../components/GlobalComponents.tsx/ScrollToTop";
 import CardContainer from "../components/Main/MediumPage/CardContainer";
 import Intercession from "../components/Main/MediumPage/Intercession";
 import MediumPage from "../components/Main/MediumPage/MediumPage";
@@ -42,6 +43,7 @@ const Home: React.FC = () => {
           <FinalPage />
         </NightBackground>
       </footer>
+      <ScrollToTop />
     </>
   );
 };

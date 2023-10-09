@@ -12,6 +12,7 @@ import "./css/PagePlanets.css";
 
 //model
 import EarthModel from "./assets/models/earth.glb";
+import ScrollToTop from "../../components/GlobalComponents.tsx/ScrollToTop";
 
 const Earth: React.FC = () => {
   return (
@@ -127,7 +128,9 @@ const Earth: React.FC = () => {
           <FinalPage />
         </NightBackground>
       </footer>
+      <ScrollToTop />
     </>
+    
   );
 };
 

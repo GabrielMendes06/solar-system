@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom"
 import Home from "./Page/Home"
 import Mercury from "./Page/Planets/Mercury"
 import Venus from "./Page/Planets/Venus"
@@ -8,6 +8,7 @@ import Jupiter from "./Page/Planets/Jupiter"
 import Saturn from "./Page/Planets/Saturn"
 import Uranus from "./Page/Planets/Uranus"
 import Neptune from "./Page/Planets/Neptune"
+import ScrollToTop from "./components/GlobalComponents.tsx/ScrollToTop"
 
 const AppRoutes: React.FC = () => {
     return(
@@ -23,6 +24,7 @@ const AppRoutes: React.FC = () => {
                 <Route path="/saturn" element={ <Saturn /> } />
                 <Route path="/uranus" element={ <Uranus /> } />
                 <Route path="/neptune" element={ <Neptune /> } />
+                
             </Routes>
         </Router>
     )

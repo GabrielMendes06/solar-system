@@ -7,7 +7,10 @@ const ApresentationMark = () => {
 
   return (
     <>
-      <img src={SolarSystem} alt="SolarSystem" className="icon-nav m-3" onClick={() => navigate("/")}/>
+      <img src={SolarSystem} alt="SolarSystem" className="icon-nav m-3" onClick={() => { 
+        window.scrollTo(0, 0)
+        navigate("/")
+      }}/>
       <div>
         <Paragraph
           className="text-light new-font config-text"

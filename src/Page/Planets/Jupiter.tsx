@@ -12,6 +12,7 @@ import "./css/PagePlanets.css";
 
 //model
 import JupiterModel from "./assets/models/jupiter.glb";
+import ScrollToTop from "../../components/GlobalComponents.tsx/ScrollToTop";
 
 
 
@@ -126,6 +127,7 @@ const Jupiter: React.FC = () => {
           <FinalPage />
         </NightBackground>
       </footer>
+      <ScrollToTop />
     </>
   );
 };

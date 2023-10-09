@@ -12,6 +12,7 @@ import "./css/PagePlanets.css";
 
 //model
 import UranusModel from "./assets/models/uranus.glb";
+import ScrollToTop from "../../components/GlobalComponents.tsx/ScrollToTop";
 
 
 
@@ -131,6 +132,7 @@ const Uranus: React.FC = () => {
           <FinalPage />
         </NightBackground>
       </footer>
+      <ScrollToTop />
     </>
   );
 };
