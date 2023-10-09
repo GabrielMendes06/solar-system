@@ -15,6 +15,7 @@ import EarthModel from "./assets/models/earth.glb";
 import ScrollToTop from "../../components/GlobalComponents.tsx/ScrollToTop";
 
 const Earth: React.FC = () => {
+
   return (
     <>
       <header>
@@ -104,21 +105,25 @@ const Earth: React.FC = () => {
               className="keep-neptune style-background"
               content="Neptune"
               icon={<i className="bi bi-arrow-right"></i>}
+              navigateRoute='/neptune'
             />
             <CardExploring
               className="keep-venus style-background"
               content="Venus"
               icon={<i className="bi bi-arrow-right"></i>}
+              navigateRoute='/venus'
             />
             <CardExploring
               className="keep-mercury style-background"
               content="Mercury"
               icon={<i className="bi bi-arrow-right"></i>}
+              navigateRoute='/mercury'
             />
             <CardExploring
               className="keep-uranus style-background"
               content="Uranus"
               icon={<i className="bi bi-arrow-right"></i>}
+              navigateRoute='/uranus'
             />
           </div>
         </div>

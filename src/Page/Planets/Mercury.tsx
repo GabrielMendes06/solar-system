@@ -96,21 +96,25 @@ const Mercury: React.FC = () => {
               className="keep-earth style-background"
               content="Earth"
               icon={<i className="bi bi-arrow-right"></i>}
+              navigateRoute='/earth'
             />
             <CardExploring
               className="keep-jupiter style-background"
               content="Jupiter"
               icon={<i className="bi bi-arrow-right"></i>}
+              navigateRoute='/jupiter'
             />
             <CardExploring
               className="keep-saturn style-background"
               content="Saturn"
               icon={<i className="bi bi-arrow-right"></i>}
+              navigateRoute='/saturn'
             />
             <CardExploring
               className="keep-venus style-background"
               content="Venus"
               icon={<i className="bi bi-arrow-right"></i>}
+              navigateRoute='/venus'
             />
           </div>
         </div>

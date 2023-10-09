@@ -41,7 +41,7 @@ const PlanetDropDown: React.FC = () => {
                     return(
                     <div className="col-6" key={dwarfPlanet.id}>
                         <DropdownItem             
-                        href="#"
+                        href={`/${dwarfPlanet.englishName.replace(/^\d+\s/, '').toLowerCase()}`}
                         content={dwarfPlanet.englishName.replace(/^\d+\s/, '')}
                         />
                     </div>

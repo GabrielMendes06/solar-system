@@ -130,6 +130,22 @@
     background-image: url(../assets/images/neptune-page.webp);
 }
 
+.eris {
+    background-image: url(../assets/images/eris-page.webp);
+}
+
+.pluto {
+    background-image: url(../assets/images/pluto.webp);
+}
+
+.makemake {
+    background-image: url(../assets/images/makemake.webp);
+}
+
+.haumea {
+    background-image: url(../assets/images/haumea.webp);
+}
+
 @media(max-width: 768px) {
     .margin-left-20 {
         margin-left: 0;

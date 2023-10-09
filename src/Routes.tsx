@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Home from "./Page/Home"
 import Mercury from "./Page/Planets/Mercury"
 import Venus from "./Page/Planets/Venus"
@@ -8,12 +8,16 @@ import Jupiter from "./Page/Planets/Jupiter"
 import Saturn from "./Page/Planets/Saturn"
 import Uranus from "./Page/Planets/Uranus"
 import Neptune from "./Page/Planets/Neptune"
-import ScrollToTop from "./components/GlobalComponents.tsx/ScrollToTop"
+import Eris from "./Page/Planets/DwarfPlanets/Eris"
+import Pluto from "./Page/Planets/DwarfPlanets/Pluto"
+import Makemake from "./Page/Planets/DwarfPlanets/Makemake"
+import Haumea from "./Page/Planets/DwarfPlanets/Haumea"
 
 const AppRoutes: React.FC = () => {
     return(
         <Router>
             <Routes>
+                {/* Planets  */}
                 <Route path='*' element={<h1>Not Found</h1>} />
                 <Route path="/" element={ <Home /> } />
                 <Route path="/mercury" element={ <Mercury /> } />
@@ -25,6 +29,11 @@ const AppRoutes: React.FC = () => {
                 <Route path="/uranus" element={ <Uranus /> } />
                 <Route path="/neptune" element={ <Neptune /> } />
                 
+                {/* DwarfPlanets */}
+                <Route path="/eris" element={ <Eris /> } />
+                <Route path="/pluto" element={ <Pluto /> } />
+                <Route path="/makemake" element={ <Makemake /> } />
+                <Route path="/haumea" element={ <Haumea /> } />
             </Routes>
         </Router>
     )

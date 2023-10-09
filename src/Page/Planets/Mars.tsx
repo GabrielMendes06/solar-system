@@ -101,21 +101,25 @@ const Mars: React.FC = () => {
               className="keep-uranus style-background"
               content="Uranus"
               icon={<i className="bi bi-arrow-right"></i>}
+              navigateRoute='/uranus'
             />
             <CardExploring
               className="keep-jupiter style-background"
               content="Jupiter"
               icon={<i className="bi bi-arrow-right"></i>}
+              navigateRoute='/jupiter'
             />
             <CardExploring
               className="keep-saturn style-background"
               content="Saturn"
               icon={<i className="bi bi-arrow-right"></i>}
+              navigateRoute='/saturn'
             />
             <CardExploring
               className="keep-mercury style-background"
               content="Mercury"
               icon={<i className="bi bi-arrow-right"></i>}
+              navigateRoute='/mercury'
             />
           </div>
         </div>
