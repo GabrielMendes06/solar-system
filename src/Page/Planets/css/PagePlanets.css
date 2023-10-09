@@ -34,8 +34,24 @@
     font-size: 0.9em;
 }
 
+.img-responsive {
+    width: 75%;
+}
+
 .style-font {
     font-size: 1.6em;
+}
+
+.figcaption {
+    font-size: 0.7em;
+    color: rgb(107, 107, 107);
+    margin-bottom: 1em;
+    margin-top: 0.2em;
+    max-width: 500px;
+}
+
+.max-content {
+    width: max-content;
 }
 
 /* top-background */
@@ -157,5 +173,9 @@
 
     .container-for-modelviewer {
         width: 95%;
+    }
+
+    .img-responsive {
+        width: 100%;
     }
 }
