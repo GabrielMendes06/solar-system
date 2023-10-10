@@ -4,10 +4,11 @@ import { InfDwarfPlanets } from "../CompContext/infDwarfPlanets";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import ApresentationMark from "./ApresentationMark";
- import axios from "axios"
+import axios from "axios";
 import PlanetDropDown from "../DropDownButton/PlanetDropDown";
 import MoonsDropDown from "../DropDownButton/MoonsDropDown";
 import MeteorsDropDown from "../DropDownButton/MeteorsDropDown";
+import { useNavigate } from "react-router-dom";
 
 const NavbarModal: React.FC = () => {
   const values = ["xxl-down"];
@@ -15,6 +16,7 @@ const NavbarModal: React.FC = () => {
   const { setDwarfPlanets } = useContext(InfDwarfPlanets);
   const [fullscreen, setFullscreen] = useState<boolean>(true);
   const [show, setShow] = useState<boolean>(false);
+  const navigate = useNavigate()
 
   function handleShow(breakpoint: any) {
     setFullscreen(breakpoint);
@@ -36,13 +38,16 @@ const NavbarModal: React.FC = () => {
         console.log(error);
       }
     }
-  
+
     SolarSystemInformations();
   }, [setPlanets, setDwarfPlanets]);
 
   return (
     <>
       <div className="flex show-desktop justify-content-end w-100">
+        <button onClick={() => navigate('/sun')} className="sun-button m-3 p-2 border-0 rounded-1 text-light">
+          Sun
+        </button>
         <PlanetDropDown />
         <MoonsDropDown />
         <MeteorsDropDown />
@@ -68,7 +73,7 @@ const NavbarModal: React.FC = () => {
               <PlanetDropDown />
             </li>
             <li>
-              <MoonsDropDown /> 
+              <MoonsDropDown />
             </li>
             <li>
               <MeteorsDropDown />

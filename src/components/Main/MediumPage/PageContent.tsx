@@ -57,6 +57,7 @@ const PageContent: React.FC = () => {
             title="What’s the difference between a meteoroid, a meteor, and a meteorite?"
             alt="Meteor"
             imgSrc={meteors}
+            onClick={() => navigate('/meteors-meteorites')}
           />
           <CardStructure
             feature="Asteroids, stone giants"
@@ -64,6 +65,7 @@ const PageContent: React.FC = () => {
             title="The current known asteroid count is: 1,308,871"
             alt="Moon"
             imgSrc={asteroid}
+            onClick={() => navigate('/asteroids')}
           />
         </div>
       </Fade>

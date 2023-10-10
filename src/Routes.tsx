@@ -15,6 +15,7 @@ import Haumea from "./Page/Planets/DwarfPlanets/Haumea"
 import Meteors from "./Page/Asteroids_Comets&Meteorites/Meteors"
 import Asteroids from "./Page/Asteroids_Comets&Meteorites/Asteroids"
 import Comets from "./Page/Asteroids_Comets&Meteorites/Comets"
+import Sun from "./Page/Sun/Sun"
 
 const AppRoutes: React.FC = () => {
     return(
@@ -42,6 +43,9 @@ const AppRoutes: React.FC = () => {
                 <Route path="/meteors-meteorites" element={ <Meteors /> } />
                 <Route path="/asteroids" element={ <Asteroids /> } />
                 <Route path="/comets" element={ <Comets /> } />
+
+                {/* Sun */}
+                <Route path="/sun" element={ <Sun /> } />
             </Routes>
         </Router>
     )

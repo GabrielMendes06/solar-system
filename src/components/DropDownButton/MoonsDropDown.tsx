@@ -9,7 +9,7 @@ const MoonsDropDown: React.FC = () => {
 
   return (
 
-        <CustomDropDown title={"Moons"}>
+        <CustomDropDown  title={"Moons"}>
           <div className="container-grid">
               <Paragraph
                 className="align-self-start m-2 new-font border-bottom subtitle-text"
