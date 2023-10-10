@@ -100,11 +100,11 @@ const Mars: React.FC = () => {
           <div >
               <figure className="row">
               <div className="col-sm max-content">
-                <img src={Phobos} alt="Phobos image" className="col-sm w-100 min-w-50" style={{minWidth: '450px'}} />
+                <img src={Phobos} alt="Phobos image" className="col-sm w-100 min-w-50" style={{minWidth: '300px'}} />
                 <figcaption className="figcaption">Phobos, the larger of Mars' two moons, is seen in this image taken by NASA's High Resolution Imaging Science Experiment (HiRISE) camera on the Mars Reconnaissance Orbiter.</figcaption>
               </div>
               <div className="col-sm max-content">
-                <img src={Deimos} alt="" className="col-sm w-100" style={{minWidth: '450px'}}/>
+                <img src={Deimos} alt="" className="col-sm w-100" style={{minWidth: '300px'}}/>
                 <figcaption className="figcaption">This enhanced-color image of Deimos, the smaller of the two moons of Mars, was taken on Feb. 21, 2009. The image was taken by HiRISE (High Resolution Imaging Science Experiment) on NASA's Mars Reconnaissance Orbiter.</figcaption>
               </div>
               </figure>

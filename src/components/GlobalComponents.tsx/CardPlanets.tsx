@@ -24,7 +24,6 @@ const CardPlanets: React.FC<CardContainerProps> = ({ imgSrc, planetName, onClick
     if (planet) {
       setPlanetInfo(planet);
     }
-    console.log("render");
   }, [planets, planetName]) 
 
   return (

@@ -27,6 +27,7 @@ const PageContent: React.FC = () => {
             title="Sun, the star that warms us"
             alt="Sun"
             imgSrc={sun}
+            onClick={() => navigate('/sun')} 
           />
           <CardStructure
             feature="Uranus, the coldest planet in the solar system"

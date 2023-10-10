@@ -124,6 +124,10 @@
     background-image: url(../assets/images/comet-page.webp);
 }
 
+.sun {
+    background-image: url(../assets/images/sun-page.webp);
+}
+
 .card-exploring {
     height: 610px;
     min-width: 18rem;

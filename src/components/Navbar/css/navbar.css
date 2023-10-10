@@ -100,6 +100,12 @@
   max-width: 350px;
 }
 
+.container-grid a {
+  width: 100%;
+  min-width: max-content;
+  padding: 0.4em;
+}
+
 .sun-button {
   background-color: #00000000;
 }
