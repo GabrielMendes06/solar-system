@@ -14,6 +14,7 @@ import Makemake from "./Page/Planets/DwarfPlanets/Makemake"
 import Haumea from "./Page/Planets/DwarfPlanets/Haumea"
 import Meteors from "./Page/Asteroids_Comets&Meteorites/Meteors"
 import Asteroids from "./Page/Asteroids_Comets&Meteorites/Asteroids"
+import Comets from "./Page/Asteroids_Comets&Meteorites/Comets"
 
 const AppRoutes: React.FC = () => {
     return(
@@ -40,6 +41,7 @@ const AppRoutes: React.FC = () => {
                 {/* Meteors, Comets And Asteroids */}
                 <Route path="/meteors-meteorites" element={ <Meteors /> } />
                 <Route path="/asteroids" element={ <Asteroids /> } />
+                <Route path="/comets" element={ <Comets /> } />
             </Routes>
         </Router>
     )

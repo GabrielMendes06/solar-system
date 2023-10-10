@@ -120,6 +120,10 @@
     background-image: url(../assets/images/asteroid-page.webp);
 }
 
+.comets {
+    background-image: url(../assets/images/comet-page.webp);
+}
+
 .card-exploring {
     height: 610px;
     min-width: 18rem;
@@ -134,6 +138,18 @@
     background-size: cover;
     background-position: 23% 60%;
     margin-bottom: 1em;
+}
+
+.gif-comet {
+    background-image: url(../assets/models/comet.gif);
+    background-size: cover;
+    background-position: center center;
+    margin: auto;
+    width: 100%;
+    max-width: 600px;
+    height: 350px;
+    margin-top: 5em;
+    margin-bottom: 5em;
 }
 
 

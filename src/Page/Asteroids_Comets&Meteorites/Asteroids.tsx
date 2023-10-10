@@ -10,14 +10,14 @@ import CardExploring from "../../components/GlobalComponents.tsx/CardExploring";
 import "../Planets/css/PagePlanets.css";
 
 //asteroids
-import Bennu from "../Planets/assets/images/asteroid-bennu.webp"
-import Apophis from "../Planets/assets/images/asteroid-apophis.webp"
-import DidymosAndDimorpho from "../Planets/assets/images/asteroid-didymos-and-dimorphos.webp"
-import Eros from "../Planets/assets/images/asteroid-eros.webp"
-import Psyche from "../Planets/assets/images/asteroid-psyche.webp"
-import Vesta from "../Planets/assets/images/asteroid-vesta.webp"
-import Itokawa from "../Planets/assets/images/asteroid-itokawa.webp"
-import Ida from "../Planets/assets/images/asteroid-ida.webp"
+import Bennu from "../Planets/assets/images/asteroids-card/asteroid-bennu.webp"
+import Apophis from "../Planets/assets/images/asteroids-card/asteroid-apophis.webp"
+import DidymosAndDimorpho from "../Planets/assets/images/asteroids-card/asteroid-didymos-and-dimorphos.webp"
+import Eros from "../Planets/assets/images/asteroids-card/asteroid-eros.webp"
+import Psyche from "../Planets/assets/images/asteroids-card/asteroid-psyche.webp"
+import Vesta from "../Planets/assets/images/asteroids-card/asteroid-vesta.webp"
+import Itokawa from "../Planets/assets/images/asteroids-card/asteroid-itokawa.webp"
+import Ida from "../Planets/assets/images/asteroids-card/asteroid-ida.webp"
 
 
 //model
@@ -71,7 +71,7 @@ const Asteroids: React.FC = () => {
         />
         <div className="container mb-5">
           <Title content="Featured Asteroids" />
-          <div className="row">
+          <div className="row justify-content-center">
             <SimpleCard 
             src={Psyche}
             title='Psyche'/>
