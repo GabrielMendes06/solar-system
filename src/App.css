@@ -13,3 +13,19 @@ html, body {
     transition: 0.5s;
 }
 
+.simple-card {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.simple-card:hover {
+    transform: scale(1.1)
+}
+
+.text-index {
+    z-index: 1;
+    background-color: white;
+}
+

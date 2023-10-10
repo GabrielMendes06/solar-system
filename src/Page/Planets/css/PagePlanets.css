@@ -89,11 +89,35 @@
 }
 
 .uranus {
-    background-image: url(../assets/images/uranus-page.jpg);
+    background-image: url(../assets/images/uranus-page.webp);
 }
 
 .neptune {
     background-image: url(../assets/images/neptune-page.webp); 
+}
+
+.eris {
+    background-image: url(../assets/images/eris-page.webp);
+}
+
+.pluto {
+    background-image: url(../assets/images/pluto-page.webp);
+}
+
+.makemake {
+    background-image: url(../assets/images/makemake-page.webp);
+}
+
+.haumea {
+    background-image: url(../assets/images/haumea-page.webp);
+}
+
+.meteors {
+    background-image: url(../assets/images/meteor.webp);
+}
+
+.asteroid {
+    background-image: url(../assets/images/asteroid-page.webp);
 }
 
 .card-exploring {
@@ -101,6 +125,18 @@
     min-width: 18rem;
     max-width: 28rem;
 }
+
+.image-collect-meteor {
+    background-image: url(../assets/images/collecting-meteorite.webp);
+    width: 90%;
+    margin: auto;
+    height: 22rem;
+    background-size: cover;
+    background-position: 23% 60%;
+    margin-bottom: 1em;
+}
+
+
 
 /* background-cards */
 
@@ -139,27 +175,11 @@
 }
 
 .keep-uranus {
-    background-image: url(../assets/images/uranus-page.jpg);
+    background-image: url(../assets/images/uranus-page.webp);
 }
 
 .keep-neptune {
     background-image: url(../assets/images/neptune-page.webp);
-}
-
-.eris {
-    background-image: url(../assets/images/eris-page.webp);
-}
-
-.pluto {
-    background-image: url(../assets/images/pluto.webp);
-}
-
-.makemake {
-    background-image: url(../assets/images/makemake.webp);
-}
-
-.haumea {
-    background-image: url(../assets/images/haumea.webp);
 }
 
 @media(max-width: 768px) {
@@ -177,5 +197,9 @@
 
     .img-responsive {
         width: 100%;
+    }
+
+    .text-mobile {
+        font-size: 0.8em;
     }
 }

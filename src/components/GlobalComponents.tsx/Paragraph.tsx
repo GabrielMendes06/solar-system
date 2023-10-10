@@ -5,7 +5,7 @@ interface TParagraph {
 
 function Paragraph( { className, content }:  TParagraph ){
     return(
-        <p className={className}>{content}</p>
+        <p className={`${className} text-mobile`}>{content}</p>
     )
 }
 

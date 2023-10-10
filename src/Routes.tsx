@@ -12,6 +12,8 @@ import Eris from "./Page/Planets/DwarfPlanets/Eris"
 import Pluto from "./Page/Planets/DwarfPlanets/Pluto"
 import Makemake from "./Page/Planets/DwarfPlanets/Makemake"
 import Haumea from "./Page/Planets/DwarfPlanets/Haumea"
+import Meteors from "./Page/Asteroids_Comets&Meteorites/Meteors"
+import Asteroids from "./Page/Asteroids_Comets&Meteorites/Asteroids"
 
 const AppRoutes: React.FC = () => {
     return(
@@ -34,6 +36,10 @@ const AppRoutes: React.FC = () => {
                 <Route path="/pluto" element={ <Pluto /> } />
                 <Route path="/makemake" element={ <Makemake /> } />
                 <Route path="/haumea" element={ <Haumea /> } />
+
+                {/* Meteors, Comets And Asteroids */}
+                <Route path="/meteors-meteorites" element={ <Meteors /> } />
+                <Route path="/asteroids" element={ <Asteroids /> } />
             </Routes>
         </Router>
     )

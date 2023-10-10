@@ -60,7 +60,7 @@
 .twinkling {
     background:  transparent url(../assets/twinkling.webp) repeat top center;
     z-index: 1;
-    animation: move-twinkle-back 30s linear infinite;
+    animation: move-twinkle-back 60s linear infinite;
 }
 
 /* Background Parallax */
