@@ -112,29 +112,29 @@ const Pluto: React.FC = () => {
           <Paragraph content="KEEP EXPLORING" className="text-exploring mt-5" />
           <Title content="Discover More Topics" className="mb-5" />
           <div className="row justify-content-center">
-            <CardExploring
-              className="keep-neptune style-background"
-              content="Neptune"
+          <CardExploring
+              className="keep-makemake style-background"
+              content="MakeMake"
               icon={<i className="bi bi-arrow-right"></i>}
-              navigateRoute='/neptune'
+              navigateRoute='/dwarf-planets/makemake'
             />
             <CardExploring
-              className="keep-venus style-background"
-              content="Venus"
+              className="keep-earth style-background"
+              content="Earth"
               icon={<i className="bi bi-arrow-right"></i>}
-              navigateRoute='/venus'
+              navigateRoute='/earth'
+            />
+            <CardExploring
+              className="keep-asteroids style-background"
+              content="Asteroids"
+              icon={<i className="bi bi-arrow-right"></i>}
+              navigateRoute='/asteroids'
             />
             <CardExploring
               className="keep-mercury style-background"
               content="Mercury"
               icon={<i className="bi bi-arrow-right"></i>}
               navigateRoute='/mercury'
-            />
-            <CardExploring
-              className="keep-uranus style-background"
-              content="Uranus"
-              icon={<i className="bi bi-arrow-right"></i>}
-              navigateRoute='/uranus'
             />
           </div>
         </div>

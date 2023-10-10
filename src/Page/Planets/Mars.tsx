@@ -129,10 +129,10 @@ const Mars: React.FC = () => {
           <Title content="Discover More Topics" className="mb-5" />
           <div className="row justify-content-center">
             <CardExploring
-              className="keep-uranus style-background"
-              content="Uranus"
+              className="keep-pluto style-background"
+              content="Pluto"
               icon={<i className="bi bi-arrow-right"></i>}
-              navigateRoute='/uranus'
+              navigateRoute='/dwarf-planets/pluto'
             />
             <CardExploring
               className="keep-jupiter style-background"
@@ -147,10 +147,10 @@ const Mars: React.FC = () => {
               navigateRoute='/saturn'
             />
             <CardExploring
-              className="keep-mercury style-background"
-              content="Mercury"
+              className="keep-venus style-background"
+              content="Venus"
               icon={<i className="bi bi-arrow-right"></i>}
-              navigateRoute='/mercury'
+              navigateRoute='/venus'
             />
           </div>
         </div>

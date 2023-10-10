@@ -113,7 +113,7 @@
 }
 
 .meteors {
-    background-image: url(../assets/images/meteor.webp);
+    background-image: url(../assets/images/meteor-page.webp);
 }
 
 .asteroid {
@@ -196,6 +196,34 @@
 
 .keep-neptune {
     background-image: url(../assets/images/neptune-page.webp);
+}
+
+.keep-eris {
+    background-image: url(../assets/images/eris-page.webp);
+}
+
+.keep-haumea {
+    background-image: url(../assets/images/haumea-page.webp);
+}
+
+.keep-makemake {
+    background-image: url(../assets/images/makemake-page.webp);
+}
+
+.keep-pluto {
+    background-image: url(../assets/images/pluto-page.webp);
+}
+
+.keep-asteroids {
+    background-image: url(../assets/images/asteroid-page.webp);
+}
+
+.keep-comets {
+    background-image: url(../assets/images/comet-page.webp);
+}
+
+.keep-meteors-meteorites {
+    background-image: url(../assets/images/meteor-page.webp);
 }
 
 @media(max-width: 768px) {

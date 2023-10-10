@@ -119,22 +119,22 @@ const Earth: React.FC = () => {
           <Title content="Discover More Topics" className="mb-5" />
           <div className="row justify-content-center">
             <CardExploring
-              className="keep-neptune style-background"
-              content="Neptune"
+              className="keep-eris style-background"
+              content="Eris"
               icon={<i className="bi bi-arrow-right"></i>}
-              navigateRoute='/neptune'
+              navigateRoute='/dwarf-planets/eris'
             />
             <CardExploring
-              className="keep-venus style-background"
-              content="Venus"
+              className="keep-jupiter style-background"
+              content="Jupiter"
               icon={<i className="bi bi-arrow-right"></i>}
-              navigateRoute='/venus'
+              navigateRoute='/jupiter'
             />
             <CardExploring
-              className="keep-mercury style-background"
-              content="Mercury"
+              className="keep-meteors-meteorites style-background"
+              content="Meteors & Meteorites"
               icon={<i className="bi bi-arrow-right"></i>}
-              navigateRoute='/mercury'
+              navigateRoute='/meteors-meteorites'
             />
             <CardExploring
               className="keep-uranus style-background"

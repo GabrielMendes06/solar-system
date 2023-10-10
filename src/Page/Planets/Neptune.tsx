@@ -119,22 +119,22 @@ const Neptune: React.FC = () => {
               navigateRoute="/earth"
             />
             <CardExploring
-              className="keep-venus style-background"
-              content="Venus"
+              className="keep-haumea style-background"
+              content="Haumea"
               icon={<i className="bi bi-arrow-right"></i>}
-              navigateRoute="/venus"
+              navigateRoute="/dwarf-planets/haumea"
             />
             <CardExploring
-              className="keep-neptune style-background"
-              content="Neptune"
+              className="keep-pluto style-background"
+              content="Pluto"
               icon={<i className="bi bi-arrow-right"></i>}
-              navigateRoute="/neptune"
+              navigateRoute="/dwarf-planets/pluto"
             />
             <CardExploring
-              className="keep-mercury style-background"
-              content="Mercury"
+              className="keep-uranus style-background"
+              content="Uranus"
               icon={<i className="bi bi-arrow-right"></i>}
-              navigateRoute="/mercury"
+              navigateRoute="/uranus"
             />
           </div>
         </div>

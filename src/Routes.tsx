@@ -33,10 +33,10 @@ const AppRoutes: React.FC = () => {
                 <Route path="/neptune" element={ <Neptune /> } />
                 
                 {/* DwarfPlanets */}
-                <Route path="/eris" element={ <Eris /> } />
-                <Route path="/pluto" element={ <Pluto /> } />
-                <Route path="/makemake" element={ <Makemake /> } />
-                <Route path="/haumea" element={ <Haumea /> } />
+                <Route path="/dwarf-planets/eris" element={ <Eris /> } />
+                <Route path="/dwarf-planets/pluto" element={ <Pluto /> } />
+                <Route path="/dwarf-planets/makemake" element={ <Makemake /> } />
+                <Route path="/dwarf-planets/haumea" element={ <Haumea /> } />
 
                 {/* Meteors, Comets And Asteroids */}
                 <Route path="/meteors-meteorites" element={ <Meteors /> } />

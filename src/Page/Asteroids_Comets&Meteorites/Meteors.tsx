@@ -1,7 +1,6 @@
 //components, css
 import Navbar from "../../components/Navbar/Navbar";
 import TopOfPage from "../../components/SecondPagePlanets/TopOfPage";
-import BottomCarousel from "../../components/GlobalComponents.tsx/BottomCarousel";
 import Intercession from "../../components/Main/MediumPage/Intercession";
 import Title from "../../components/GlobalComponents.tsx/Title";
 import Paragraph from "../../components/GlobalComponents.tsx/Paragraph";

@@ -133,10 +133,10 @@ const Saturn: React.FC = () => {
               navigateRoute='/neptune'
             />
             <CardExploring
-              className="keep-mercury style-background"
-              content="Mercury"
+              className="keep-pluto style-background"
+              content="Pluto"
               icon={<i className="bi bi-arrow-right"></i>}
-              navigateRoute='/mercury'
+              navigateRoute='/dwarf-planets/pluto'
             />
           </div>
         </div>

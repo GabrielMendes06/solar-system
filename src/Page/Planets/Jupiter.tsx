@@ -124,22 +124,22 @@ const Jupiter: React.FC = () => {
           <Title content="Discover More Topics" className="mb-5" />
           <div className="row justify-content-center">
             <CardExploring
+              className="keep-makemake style-background"
+              content="MakeMake"
+              icon={<i className="bi bi-arrow-right"></i>}
+              navigateRoute='/dwarf-planets/makemake'
+            />
+            <CardExploring
               className="keep-earth style-background"
               content="Earth"
               icon={<i className="bi bi-arrow-right"></i>}
               navigateRoute='/earth'
             />
             <CardExploring
-              className="keep-venus style-background"
-              content="Venus"
+              className="keep-asteroids style-background"
+              content="Asteroids"
               icon={<i className="bi bi-arrow-right"></i>}
-              navigateRoute='/venus'
-            />
-            <CardExploring
-              className="keep-neptune style-background"
-              content="Neptune"
-              icon={<i className="bi bi-arrow-right"></i>}
-              navigateRoute='/neptune'
+              navigateRoute='/asteroids'
             />
             <CardExploring
               className="keep-mercury style-background"

@@ -118,16 +118,16 @@ const Eris: React.FC = () => {
               navigateRoute='/venus'
             />
             <CardExploring
+              className="keep-asteroids style-background"
+              content="Asteroids"
+              icon={<i className="bi bi-arrow-right"></i>}
+              navigateRoute='/asteroids'
+            />
+            <CardExploring
               className="keep-mercury style-background"
               content="Mercury"
               icon={<i className="bi bi-arrow-right"></i>}
               navigateRoute='/mercury'
-            />
-            <CardExploring
-              className="keep-uranus style-background"
-              content="Uranus"
-              icon={<i className="bi bi-arrow-right"></i>}
-              navigateRoute='/uranus'
             />
           </div>
         </div>
