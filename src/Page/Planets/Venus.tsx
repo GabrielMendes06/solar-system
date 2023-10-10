@@ -118,25 +118,25 @@ const Venus: React.FC = () => {
           <Title content="Discover More Topics" className="mb-5" />
           <div className="row justify-content-center">
             <CardExploring
-              className="keep-mercury style-background"
+              className="mercury style-background"
               content="Mercury"
               icon={<i className="bi bi-arrow-right"></i>}
               navigateRoute='/mercury'
             />
             <CardExploring
-              className="keep-pluto style-background"
+              className="pluto style-background"
               content="Pluto"
               icon={<i className="bi bi-arrow-right"></i>}
               navigateRoute='/dwarf-planets/pluto'
             />
             <CardExploring
-              className="keep-saturn style-background"
+              className="saturn style-background"
               content="Saturn"
               icon={<i className="bi bi-arrow-right"></i>}
               navigateRoute='/saturn'
             />
             <CardExploring
-              className="keep-makemake style-background"
+              className="makemake style-background"
               content="Makemake"
               icon={<i className="bi bi-arrow-right"></i>}
               navigateRoute='/dwarf-planets/makemake'

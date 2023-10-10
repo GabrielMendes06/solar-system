@@ -107,25 +107,25 @@ const Makemake: React.FC = () => {
           <Title content="Discover More Topics" className="mb-5" />
           <div className="row justify-content-center">
           <CardExploring
-              className="keep-asteroids style-background"
+              className="asteroids style-background"
               content="Asteroids"
               icon={<i className="bi bi-arrow-right"></i>}
               navigateRoute="/asteroids"
             />
             <CardExploring
-              className="keep-jupiter style-background"
+              className="jupiter style-background"
               content="Jupiter"
               icon={<i className="bi bi-arrow-right"></i>}
               navigateRoute="/jupiter"
             />
             <CardExploring
-              className="keep-saturn style-background"
+              className="saturn style-background"
               content="Saturn"
               icon={<i className="bi bi-arrow-right"></i>}
               navigateRoute="/saturn"
             />
             <CardExploring
-              className="keep-meteors-meteorites style-background"
+              className="meteors-meteorites style-background"
               content="Meteors & Meteorites"
               icon={<i className="bi bi-arrow-right"></i>}
               navigateRoute="/meteors-meteorites"

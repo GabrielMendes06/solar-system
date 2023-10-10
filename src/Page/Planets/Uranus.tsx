@@ -114,25 +114,25 @@ const Uranus: React.FC = () => {
           <Title content="Discover More Topics" className="mb-5" />
           <div className="row justify-content-center">
             <CardExploring
-              className="keep-mars style-background"
+              className="mars style-background"
               content="Mars"
               icon={<i className="bi bi-arrow-right"></i>}
               navigateRoute="/mars"
             />
             <CardExploring
-              className="keep-venus style-background"
+              className="venus style-background"
               content="Venus"
               icon={<i className="bi bi-arrow-right"></i>}
               navigateRoute="/venus"
             />
             <CardExploring
-              className="keep-earth style-background"
+              className="earth style-background"
               content="Earth"
               icon={<i className="bi bi-arrow-right"></i>}
               navigateRoute="/earth"
             />
             <CardExploring
-              className="keep-comets style-background"
+              className="comets style-background"
               content="Comets"
               icon={<i className="bi bi-arrow-right"></i>}
               navigateRoute="/comets"

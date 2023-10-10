@@ -128,6 +128,10 @@
     background-image: url(../assets/images/sun-page.webp);
 }
 
+.moon {
+    background-image: url(../assets/images/moon-page.webp);
+}
+
 .card-exploring {
     height: 610px;
     min-width: 18rem;
@@ -167,67 +171,6 @@
 
 .style-background:hover {
     transform: scale(1.1);
-}
-
-.keep-mercury {
-    background-image: url(../assets/images/mercury-page.webp);
-}
-
-.keep-venus {
-    background-image: url(../assets/images/venus-page.webp);
-}
-
-.keep-earth {
-    background-image: url(../assets/images/earth-page.webp);
-
-}
-
-.keep-mars {
-    background-image: url(../assets/images/mars-page.webp);
-}
-
-.keep-jupiter {
-    background-image: url(../assets/images/jupiter-page.webp);
-}
-
-.keep-saturn {
-    background-image: url(../assets/images/saturn-page.webp);
-}
-
-.keep-uranus {
-    background-image: url(../assets/images/uranus-page.webp);
-}
-
-.keep-neptune {
-    background-image: url(../assets/images/neptune-page.webp);
-}
-
-.keep-eris {
-    background-image: url(../assets/images/eris-page.webp);
-}
-
-.keep-haumea {
-    background-image: url(../assets/images/haumea-page.webp);
-}
-
-.keep-makemake {
-    background-image: url(../assets/images/makemake-page.webp);
-}
-
-.keep-pluto {
-    background-image: url(../assets/images/pluto-page.webp);
-}
-
-.keep-asteroids {
-    background-image: url(../assets/images/asteroid-page.webp);
-}
-
-.keep-comets {
-    background-image: url(../assets/images/comet-page.webp);
-}
-
-.keep-meteors-meteorites {
-    background-image: url(../assets/images/meteor-page.webp);
 }
 
 @media(max-width: 768px) {

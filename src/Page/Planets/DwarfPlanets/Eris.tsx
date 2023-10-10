@@ -106,25 +106,25 @@ const Eris: React.FC = () => {
           <Title content="Discover More Topics" className="mb-5" />
           <div className="row justify-content-center">
             <CardExploring
-              className="keep-neptune style-background"
+              className="neptune style-background"
               content="Neptune"
               icon={<i className="bi bi-arrow-right"></i>}
               navigateRoute='/neptune'
             />
             <CardExploring
-              className="keep-venus style-background"
+              className="venus style-background"
               content="Venus"
               icon={<i className="bi bi-arrow-right"></i>}
               navigateRoute='/venus'
             />
             <CardExploring
-              className="keep-asteroids style-background"
+              className="asteroids style-background"
               content="Asteroids"
               icon={<i className="bi bi-arrow-right"></i>}
               navigateRoute='/asteroids'
             />
             <CardExploring
-              className="keep-mercury style-background"
+              className="mercury style-background"
               content="Mercury"
               icon={<i className="bi bi-arrow-right"></i>}
               navigateRoute='/mercury'

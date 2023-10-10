@@ -91,25 +91,25 @@ const Sun: React.FC = () => {
           <Title content="Discover More Topics" className="mb-5" />
           <div className="row justify-content-center">
             <CardExploring
-              className="keep-mercury style-background"
+              className="mercury style-background"
               content="Mercury"
               icon={<i className="bi bi-arrow-right"></i>}
               navigateRoute='/mercury'
             />
             <CardExploring
-              className="keep-pluto style-background"
-              content="Pluto"
+              className="earth style-background"
+              content="Earth"
               icon={<i className="bi bi-arrow-right"></i>}
-              navigateRoute='/dwarf-planets/pluto'
+              navigateRoute='/dwarf-planets/earth'
             />
             <CardExploring
-              className="keep-saturn style-background"
+              className="saturn style-background"
               content="Saturn"
               icon={<i className="bi bi-arrow-right"></i>}
               navigateRoute='/saturn'
             />
             <CardExploring
-              className="keep-makemake style-background"
+              className="makemake style-background"
               content="Makemake"
               icon={<i className="bi bi-arrow-right"></i>}
               navigateRoute='/dwarf-planets/makemake'

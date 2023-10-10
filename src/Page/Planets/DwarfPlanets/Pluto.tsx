@@ -113,25 +113,25 @@ const Pluto: React.FC = () => {
           <Title content="Discover More Topics" className="mb-5" />
           <div className="row justify-content-center">
           <CardExploring
-              className="keep-makemake style-background"
+              className="makemake style-background"
               content="MakeMake"
               icon={<i className="bi bi-arrow-right"></i>}
               navigateRoute='/dwarf-planets/makemake'
             />
             <CardExploring
-              className="keep-earth style-background"
+              className="earth style-background"
               content="Earth"
               icon={<i className="bi bi-arrow-right"></i>}
               navigateRoute='/earth'
             />
             <CardExploring
-              className="keep-asteroids style-background"
+              className="asteroids style-background"
               content="Asteroids"
               icon={<i className="bi bi-arrow-right"></i>}
               navigateRoute='/asteroids'
             />
             <CardExploring
-              className="keep-mercury style-background"
+              className="mercury style-background"
               content="Mercury"
               icon={<i className="bi bi-arrow-right"></i>}
               navigateRoute='/mercury'

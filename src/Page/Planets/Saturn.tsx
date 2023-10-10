@@ -115,25 +115,25 @@ const Saturn: React.FC = () => {
           <Title content="Discover More Topics" className="mb-5" />
           <div className="row justify-content-center">
             <CardExploring
-              className="keep-earth style-background"
+              className="earth style-background"
               content="Earth"
               icon={<i className="bi bi-arrow-right"></i>}
               navigateRoute='/earth'
             />
             <CardExploring
-              className="keep-venus style-background"
+              className="venus style-background"
               content="Venus"
               icon={<i className="bi bi-arrow-right"></i>}
               navigateRoute='/venus'
             />
             <CardExploring
-              className="keep-neptune style-background"
+              className="neptune style-background"
               content="Neptune"
               icon={<i className="bi bi-arrow-right"></i>}
               navigateRoute='/neptune'
             />
             <CardExploring
-              className="keep-pluto style-background"
+              className="pluto style-background"
               content="Pluto"
               icon={<i className="bi bi-arrow-right"></i>}
               navigateRoute='/dwarf-planets/pluto'

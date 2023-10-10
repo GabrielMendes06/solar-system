@@ -16,6 +16,7 @@ import Meteors from "./Page/Asteroids_Comets&Meteorites/Meteors"
 import Asteroids from "./Page/Asteroids_Comets&Meteorites/Asteroids"
 import Comets from "./Page/Asteroids_Comets&Meteorites/Comets"
 import Sun from "./Page/Sun/Sun"
+import Moon from "./Page/Moons/Moon"
 
 const AppRoutes: React.FC = () => {
     return(
@@ -46,6 +47,9 @@ const AppRoutes: React.FC = () => {
 
                 {/* Sun */}
                 <Route path="/sun" element={ <Sun /> } />
+
+                {/* Moons */}
+                <Route path="/moon" element={ <Moon /> } />
             </Routes>
         </Router>
     )
