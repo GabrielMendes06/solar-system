@@ -17,6 +17,11 @@ import Asteroids from "./Page/Asteroids_Comets&Meteorites/Asteroids"
 import Comets from "./Page/Asteroids_Comets&Meteorites/Comets"
 import Sun from "./Page/Sun/Sun"
 import Moon from "./Page/Moons/Moon"
+import MarsMoon from "./Page/Moons/MarsMoon"
+import JupiterMoon from "./Page/Moons/JupiterMoon"
+import SaturnMoon from "./Page/Moons/SaturnMoon"
+import UranusMoon from "./Page/Moons/UranusMoon"
+import NeptuneMoon from "./Page/Moons/NeptuneMoon"
 
 const AppRoutes: React.FC = () => {
     return(
@@ -49,7 +54,12 @@ const AppRoutes: React.FC = () => {
                 <Route path="/sun" element={ <Sun /> } />
 
                 {/* Moons */}
-                <Route path="/moon" element={ <Moon /> } />
+                <Route path="/earth/moon" element={ <Moon /> } />
+                <Route path="/mars/moon" element={ <MarsMoon /> } />
+                <Route path="/jupiter/moon" element={ <JupiterMoon /> } />
+                <Route path="/saturn/moon" element={ <SaturnMoon /> } />
+                <Route path="/uranus/moon" element={ <UranusMoon /> } />
+                <Route path="/neptune/moon" element={ <NeptuneMoon /> } />
             </Routes>
         </Router>
     )

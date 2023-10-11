@@ -43,6 +43,7 @@ const PageContent: React.FC = () => {
             title="How Many Moons Are There in Our Solar System?"
             alt="Moon"
             imgSrc={moon}
+            onClick={() => navigate('/earth/moon')}
           />
           <CardStructure
             feature="The big planet Jupiter"

@@ -102,22 +102,22 @@ const Moon: React.FC = () => {
               navigateRoute='/sun'
             />
             <CardExploring
-              className="uranus style-background"
-              content="Uranus"
+              className="saturn style-background"
+              content="Saturn"
               icon={<i className="bi bi-arrow-right"></i>}
-              navigateRoute='/dwarf-planets/uranus'
+              navigateRoute="/saturn"
             />
             <CardExploring
-              className="jupiter style-background"
-              content="Jupiter"
+              className="comets style-background"
+              content="Comets"
               icon={<i className="bi bi-arrow-right"></i>}
-              navigateRoute='/jupiter'
+              navigateRoute="/comets"
             />
             <CardExploring
               className="earth style-background"
               content="Earth"
               icon={<i className="bi bi-arrow-right"></i>}
-              navigateRoute='/dwarf-planets/earth'
+              navigateRoute='/earth'
             />
           </div>
         </div>

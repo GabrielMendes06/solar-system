@@ -24,7 +24,7 @@ const Meteors: React.FC = () => {
       <header>
         <Navbar />
         <TopOfPage
-          planet="meteors"
+          planet="meteors-meteorites"
           cardTitle="Meteors"
           cardText="They’re all related to the flashes of light called “shooting stars” sometimes seen streaking across the sky. But we call the same object by different names, depending on where it is."
           className="flex justify-content-center"

@@ -121,10 +121,10 @@ const Saturn: React.FC = () => {
               navigateRoute='/earth'
             />
             <CardExploring
-              className="venus style-background"
-              content="Venus"
+              className="eris style-background"
+              content="Eris"
               icon={<i className="bi bi-arrow-right"></i>}
-              navigateRoute='/venus'
+              navigateRoute='/dwarf-planets/eris'
             />
             <CardExploring
               className="neptune style-background"

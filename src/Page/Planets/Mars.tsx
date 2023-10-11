@@ -100,11 +100,11 @@ const Mars: React.FC = () => {
           <div >
               <figure className="row">
               <div className="col-sm max-content">
-                <img src={Phobos} alt="Phobos image" className="col-sm w-100 min-w-50" style={{minWidth: '300px'}} />
+                <img src={Phobos} alt="Phobos" className="col-sm w-100 min-w-50" style={{minWidth: '300px'}} />
                 <figcaption className="figcaption">Phobos, the larger of Mars' two moons, is seen in this image taken by NASA's High Resolution Imaging Science Experiment (HiRISE) camera on the Mars Reconnaissance Orbiter.</figcaption>
               </div>
               <div className="col-sm max-content">
-                <img src={Deimos} alt="" className="col-sm w-100" style={{minWidth: '300px'}}/>
+                <img src={Deimos} alt="Deimos" className="col-sm w-100" style={{minWidth: '300px'}}/>
                 <figcaption className="figcaption">This enhanced-color image of Deimos, the smaller of the two moons of Mars, was taken on Feb. 21, 2009. The image was taken by HiRISE (High Resolution Imaging Science Experiment) on NASA's Mars Reconnaissance Orbiter.</figcaption>
               </div>
               </figure>
@@ -129,25 +129,25 @@ const Mars: React.FC = () => {
           <Title content="Discover More Topics" className="mb-5" />
           <div className="row justify-content-center">
             <CardExploring
-              className="keep-pluto style-background"
+              className="pluto style-background"
               content="Pluto"
               icon={<i className="bi bi-arrow-right"></i>}
               navigateRoute='/dwarf-planets/pluto'
             />
             <CardExploring
-              className="keep-jupiter style-background"
+              className="jupiter style-background"
               content="Jupiter"
               icon={<i className="bi bi-arrow-right"></i>}
               navigateRoute='/jupiter'
             />
             <CardExploring
-              className="keep-saturn style-background"
-              content="Saturn"
+              className="makemake style-background"
+              content="Makemake"
               icon={<i className="bi bi-arrow-right"></i>}
-              navigateRoute='/saturn'
+              navigateRoute='/dwarf-planets/makemake'
             />
             <CardExploring
-              className="keep-venus style-background"
+              className="venus style-background"
               content="Venus"
               icon={<i className="bi bi-arrow-right"></i>}
               navigateRoute='/venus'

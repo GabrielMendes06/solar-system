@@ -18,7 +18,7 @@ const ApresentationMark = () => {
         />
         <Paragraph
           className="text-light new-font config-text thin-text"
-          content="Galaxy of the universe, our home"
+          content="Milky Way, our home"
         />
       </div>
     </>

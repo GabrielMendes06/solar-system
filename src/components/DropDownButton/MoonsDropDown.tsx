@@ -20,14 +20,16 @@ const MoonsDropDown: React.FC = () => {
                   {planets.map((planet: any): React.ReactNode => {
                     const moonArray = planet.moons;
                     const moons = [];
+                    const isDisabled = planet.englishName === 'Mercury' || planet.englishName === 'Venus';
                     for (let key in moonArray) {
                       moons.push(moonArray[key]);
-                    }
+                    } 
                     return (
                       <div className="col-6" key={planet.id}>
                         <DropdownItem
-                          href="#/action-1"
+                          href={`/${planet.englishName.toLowerCase()}/moon`}
                           content={`${planet.englishName} (${moons.length})`}
+                          className={isDisabled ? 'disabled' : ''}
                         />
                       </div>
                     );

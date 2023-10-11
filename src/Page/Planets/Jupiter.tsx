@@ -130,10 +130,10 @@ const Jupiter: React.FC = () => {
               navigateRoute='/dwarf-planets/makemake'
             />
             <CardExploring
-              className="earth style-background"
-              content="Earth"
+              className="comets style-background"
+              content="Comets"
               icon={<i className="bi bi-arrow-right"></i>}
-              navigateRoute='/earth'
+              navigateRoute="/comets"
             />
             <CardExploring
               className="asteroids style-background"

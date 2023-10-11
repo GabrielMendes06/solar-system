@@ -54,6 +54,12 @@
     width: max-content;
 }
 
+.text-exploring {
+    color: rgb(150, 150, 150);
+    font-size: 0.8em;
+    letter-spacing: 4px;
+}
+
 /* top-background */
 
 .style-top-background {
@@ -112,11 +118,11 @@
     background-image: url(../assets/images/haumea-page.webp);
 }
 
-.meteors {
+.meteors-meteorites {
     background-image: url(../assets/images/meteor-page.webp);
 }
 
-.asteroid {
+.asteroids {
     background-image: url(../assets/images/asteroid-page.webp);
 }
 
@@ -130,6 +136,26 @@
 
 .moon {
     background-image: url(../assets/images/moon-page.webp);
+}
+
+.mars-moon {
+    background-image: url(../assets/images/moons-mars-page.webp);
+}
+
+.jupiter-moon {
+    background-image: url(../assets/images/moons-jupiter-page.webp);
+}
+
+.saturn-moon {
+    background-image: url(../assets/images/moons-saturn-page.webp);
+}
+
+.uranus-moon {
+    background-image: url(../assets/images/moons-uranus-page.webp);
+}
+
+.neptune-moon {
+    background-image: url(../assets/images/moon-neptune-page.webp);
 }
 
 .card-exploring {
