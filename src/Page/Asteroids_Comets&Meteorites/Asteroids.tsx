@@ -37,7 +37,7 @@ const Asteroids: React.FC = () => {
           className="flex justify-content-center"
           marginTopCard="0"
         />
-      </header>
+      </header> 
       <main>
         <Intercession
           children={
