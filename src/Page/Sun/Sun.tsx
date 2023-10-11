@@ -100,7 +100,7 @@ const Sun: React.FC = () => {
               className="earth style-background"
               content="Earth"
               icon={<i className="bi bi-arrow-right"></i>}
-              navigateRoute='/dwarf-planets/earth'
+              navigateRoute='/earth'
             />
             <CardExploring
               className="saturn style-background"

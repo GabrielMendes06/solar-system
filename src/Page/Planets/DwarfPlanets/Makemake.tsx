@@ -119,10 +119,10 @@ const Makemake: React.FC = () => {
               navigateRoute="/jupiter"
             />
             <CardExploring
-              className="saturn style-background"
-              content="Saturn"
+              className="mars-moon style-background"
+              content="Moons of Mars"
               icon={<i className="bi bi-arrow-right"></i>}
-              navigateRoute="/saturn"
+              navigateRoute="/mars/moon"
             />
             <CardExploring
               className="meteors-meteorites style-background"

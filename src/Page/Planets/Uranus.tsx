@@ -120,10 +120,10 @@ const Uranus: React.FC = () => {
               navigateRoute="/mars"
             />
             <CardExploring
-              className="venus style-background"
-              content="Venus"
+              className="mars-moon style-background"
+              content="Moons of Mars"
               icon={<i className="bi bi-arrow-right"></i>}
-              navigateRoute="/venus"
+              navigateRoute="/mars/moon"
             />
             <CardExploring
               className="earth style-background"

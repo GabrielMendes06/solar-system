@@ -112,17 +112,17 @@ const Neptune: React.FC = () => {
           <Paragraph content="KEEP EXPLORING" className="text-exploring mt-5" />
           <Title content="Discover More Topics" className="mb-5" />
           <div className="row justify-content-center">
-            <CardExploring
-              className="earth style-background"
-              content="Earth"
+          <CardExploring
+              className="saturn-moon style-background"
+              content="Moons of Saturn"
               icon={<i className="bi bi-arrow-right"></i>}
-              navigateRoute="/earth"
+              navigateRoute="/saturn/moon"
             />
             <CardExploring
-              className="haumea style-background"
-              content="Haumea"
+              className="neptune-moon style-background"
+              content="Moons of Neptune"
               icon={<i className="bi bi-arrow-right"></i>}
-              navigateRoute="/dwarf-planets/haumea"
+              navigateRoute="/neptune/moon"
             />
             <CardExploring
               className="pluto style-background"

@@ -95,10 +95,10 @@ const MarsMoon: React.FC = () => {
               navigateRoute='/dwarf-planets/eris'
             />
             <CardExploring
-              className="jupiter style-background"
-              content="Jupiter"
+              className="neptune-moon style-background"
+              content="Moons of Neptune"
               icon={<i className="bi bi-arrow-right"></i>}
-              navigateRoute="/jupiter"
+              navigateRoute="/neptune/moon"
             />
             <CardExploring
               className="earth style-background"

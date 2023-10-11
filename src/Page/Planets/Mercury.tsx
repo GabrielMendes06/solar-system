@@ -115,10 +115,10 @@ const Mercury: React.FC = () => {
               navigateRoute="/asteroids"
             />
             <CardExploring
-              className="eris style-background"
-              content="Eris"
+              className="neptune-moon style-background"
+              content="Moons of Neptune"
               icon={<i className="bi bi-arrow-right"></i>}
-              navigateRoute='/dwarf-planets/eris'
+              navigateRoute="/neptune/moon"
             />
             <CardExploring
               className="saturn style-background"

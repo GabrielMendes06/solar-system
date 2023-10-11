@@ -77,10 +77,10 @@ const NeptuneMoon: React.FC = () => {
               navigateRoute='/dwarf-planets/makemake'
             />
             <CardExploring
-              className="asteroids style-background"
-              content="Asteroids"
+              className="mars-moon style-background"
+              content="Moons of Mars"
               icon={<i className="bi bi-arrow-right"></i>}
-              navigateRoute="/asteroids"
+              navigateRoute="/mars/moon"
             />
             <CardExploring
               className="jupiter style-background"

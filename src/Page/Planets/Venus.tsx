@@ -118,10 +118,10 @@ const Venus: React.FC = () => {
           <Title content="Discover More Topics" className="mb-5" />
           <div className="row justify-content-center">
             <CardExploring
-              className="mercury style-background"
-              content="Mercury"
+              className="saturn-moon style-background"
+              content="Moons of Saturn"
               icon={<i className="bi bi-arrow-right"></i>}
-              navigateRoute='/mercury'
+              navigateRoute="/saturn/moon"
             />
             <CardExploring
               className="pluto style-background"
