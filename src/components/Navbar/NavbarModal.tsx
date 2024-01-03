@@ -45,7 +45,7 @@ const NavbarModal: React.FC = () => {
   return (
     <>
       <div className="flex show-desktop justify-content-end w-100">
-        <button onClick={() => navigate('/sun')} className="sun-button m-3 p-2 border-0 rounded-1 text-light">
+        <button onClick={() => navigate('/sun')} className="sun-button mx-3 p-2 border-0 rounded-1 text-light">
           Sun
         </button>
         <PlanetDropDown />
