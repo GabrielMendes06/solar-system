@@ -7,7 +7,7 @@ const ApresentationMark = () => {
 
   return (
     <>
-      <img src={SolarSystem} alt="SolarSystem" className="icon-nav mx-3" onClick={() => { 
+      <img src={SolarSystem} alt="SolarSystem" className="icon-nav my-2 mx-3" onClick={() => { 
         window.scrollTo(0, 0)
         navigate("/")
       }}/>
